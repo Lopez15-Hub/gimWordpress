@@ -1,0 +1,585 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Arile Extra\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-09 10:21+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.4.6; wp-5.6"
+
+#: inc/arilewp/front-page/extra-arilewp-testimonial.php:114
+#: inc/arilewp/front-page/extra-arilewp-testimonial.php:130
+#: inc/arilewp/front-page/extra-arilewp-testimonial.php:146
+#: inc/arilewp/front-page/extra-arilewp-testimonial.php:167
+#: inc/arilewp/front-page/extra-arilewp-testimonial.php:179
+#: inc/arilewp/front-page/extra-arilewp-testimonial.php:191
+#: inc/consultstreet/front-page/extra-brightpress-testimonial.php:66
+#: inc/consultstreet/front-page/extra-brightpress-testimonial.php:82
+#: inc/consultstreet/front-page/extra-brightpress-testimonial.php:98
+#: inc/consultstreet/front-page/extra-consultstreet-testimonial.php:67
+msgid ""
+"\"You guys are legendary! You guys are great and having amazing support & "
+"service. I couldn’t ask for any better. Thank you!\""
+msgstr ""
+
+#: inc/arilewp/front-page/extra-arilewp-siteinfo.php:46
+#: inc/consultstreet/front-page/extra-consultstreet-theme-info.php:62
+msgid "014 1547 925 - 123 4567 890"
+msgstr ""
+
+#: inc/arilewp/customizer/extra-arilewp-customizer-default.php:91
+#: inc/arilewp/front-page/extra-arilewp-siteinfo.php:55
+msgid "18 years of experience"
+msgstr ""
+
+#: inc/arilewp/customizer/extra-arilewp-customizer-default.php:84
+#: inc/arilewp/front-page/extra-arilewp-siteinfo.php:45
+msgid "24/7 Support"
+msgstr ""
+
+#: inc/consultstreet/customizer/extra-consultstreet-customizer-default.php:159
+#: inc/consultstreet/front-page/extra-consultstreet-theme-info.php:71
+msgid "25 years of experience"
+msgstr ""
+
+#: inc/arilewp/customizer/extra-arilewp-customizer-options.php:292
+#: inc/arilewp/front-page/extra-arilewp-blog.php:4
+msgid "<b>Our Latest</b> News"
+msgstr ""
+
+#: inc/arilewp/customizer/extra-arilewp-customizer-options.php:229
+#: inc/arilewp/front-page/extra-arilewp-project.php:6
+msgid "<b>Recent</b> Projects"
+msgstr ""
+
+#: inc/arilewp/customizer/extra-arilewp-customizer-options.php:197
+#: inc/arilewp/front-page/extra-arilewp-service.php:5
+msgid "<b>We provide the</b> best services"
+msgstr ""
+
+#: inc/arilewp/customizer/extra-arilewp-customizer-options.php:261
+#: inc/arilewp/front-page/extra-arilewp-testimonial.php:5
+msgid "<b>What clients</b>  are say"
+msgstr ""
+
+#: inc/consultstreet/customizer/extra-consultstreet-customizer-options.php:138
+msgid "Add new info"
+msgstr ""
+
+#: inc/arilewp/customizer/extra-arilewp-customizer-options.php:112
+#: inc/consultstreet/customizer/extra-consultstreet-customizer-options.php:189
+msgid "Add new project item"
+msgstr ""
+
+#: inc/arilewp/customizer/extra-arilewp-customizer-options.php:86
+#: inc/consultstreet/customizer/extra-consultstreet-customizer-options.php:162
+msgid "Add new service item"
+msgstr ""
+
+#: inc/arilewp/customizer/extra-arilewp-customizer-options.php:35
+#: inc/consultstreet/customizer/extra-consultstreet-customizer-options.php:114
+msgid "Add new slide item"
+msgstr ""
+
+#: inc/arilewp/customizer/extra-arilewp-customizer-options.php:135
+#: inc/consultstreet/customizer/extra-consultstreet-customizer-options.php:212
+msgid "Add new testimonial item"
+msgstr ""
+
+#: inc/arilewp/customizer/extra-arilewp-customizer-options.php:63
+msgid "Add new theme info"
+msgstr ""
+
+#. Name of the plugin
+msgid "Arile Extra"
+msgstr ""
+
+#. Description of the plugin
+msgid "Arile Extra Enhances ThemeArile with additional functionality."
+msgstr ""
+
+#: inc/arilewp/customizer/extra-arilewp-customizer-options.php:150
+msgid "Background Image"
+msgstr ""
+
+#: inc/arilewp/front-page/extra-arilewp-slider.php:76
+msgid "Best Digital Marketing Solutions"
+msgstr ""
+
+#: inc/arile-extra-activator.php:19
+#: inc/arilewp/customizer/extra-arilewp-customizer-options.php:158
+#: inc/consultstreet/customizer/extra-consultstreet-customizer-options.php:244
+msgid "Blog"
+msgstr ""
+
+#: inc/arilewp/customizer/sections/extra-arilewp-blog-customizer-settings.php:42
+#: inc/consultstreet/customizer/sections/extra-consultstreet-blog-customizer-settings.php:41
+msgid "Blog Enable/Disable"
+msgstr ""
+
+#: inc/arilewp/customizer/sections/extra-arilewp-blog-customizer-settings.php:55
+msgid "Blog Meta Enable/Disable"
+msgstr ""
+
+#: inc/arilewp/customizer/sections/extra-arilewp-blog-customizer-settings.php:28
+#: inc/consultstreet/customizer/sections/extra-consultstreet-blog-customizer-settings.php:28
+msgid "Blog Options"
+msgstr ""
+
+#: inc/arilewp/customizer/extra-arilewp-customizer-default.php:200
+#: inc/arilewp/front-page/extra-arilewp-project.php:88
+msgid "Business Solutions"
+msgstr ""
+
+#: inc/consultstreet/customizer/sections/extra-consultstreet-cta-customizer-settings.php:56
+msgid "Button Link"
+msgstr ""
+
+#: inc/arilewp/front-page/extra-arilewp-blog.php:63
+msgid "by "
+msgstr ""
+
+#: inc/consultstreet/customizer/sections/extra-consultstreet-cta-customizer-settings.php:28
+msgid "Call to Action Options"
+msgstr ""
+
+#: inc/arilewp/customizer/extra-arilewp-customizer-default.php:48
+#: inc/arilewp/customizer/extra-arilewp-customizer-default.php:57
+#: inc/arilewp/front-page/extra-arilewp-slider.php:63
+#: inc/arilewp/front-page/extra-arilewp-slider.php:79
+#: inc/arilewp/front-page/extra-strangerwp-slider.php:88
+#: inc/arilewp/front-page/extra-strangerwp-slider.php:104
+#: inc/consultstreet/customizer/extra-consultstreet-customizer-default.php:112
+#: inc/consultstreet/customizer/extra-consultstreet-customizer-default.php:121
+#: inc/consultstreet/front-page/extra-consultstreet-slider.php:79
+#: inc/consultstreet/front-page/extra-consultstreet-slider.php:94
+msgid "Check it out"
+msgstr ""
+
+#: inc/arilewp/customizer/extra-arilewp-customizer-options.php:165
+#: inc/consultstreet/customizer/extra-consultstreet-customizer-options.php:251
+msgid "Choose Blog Category"
+msgstr ""
+
+#: inc/arilewp/customizer/extra-arilewp-customizer-default.php:206
+#: inc/arilewp/front-page/extra-arilewp-project.php:99
+msgid "Consultant"
+msgstr ""
+
+#: inc/arilewp/customizer/sections/extra-arilewp-blog-customizer-settings.php:72
+#: inc/arilewp/customizer/sections/extra-arilewp-project-customizer-settings.php:58
+#: inc/consultstreet/customizer/sections/extra-consultstreet-project-customizer-settings.php:58
+msgid "Container"
+msgstr ""
+
+#: inc/arilewp/customizer/sections/extra-arilewp-blog-customizer-settings.php:73
+#: inc/arilewp/customizer/sections/extra-arilewp-project-customizer-settings.php:59
+#: inc/consultstreet/customizer/sections/extra-consultstreet-project-customizer-settings.php:59
+msgid "Container Full"
+msgstr ""
+
+#: inc/arilewp/customizer/sections/extra-arilewp-blog-customizer-settings.php:69
+#: inc/arilewp/customizer/sections/extra-arilewp-project-customizer-settings.php:55
+#: inc/consultstreet/customizer/sections/extra-consultstreet-project-customizer-settings.php:55
+msgid "Container Width"
+msgstr ""
+
+#: inc/arilewp/customizer/extra-arilewp-customizer-default.php:218
+#: inc/arilewp/front-page/extra-arilewp-project.php:121
+msgid "Digital Marketing"
+msgstr ""
+
+#: inc/consultstreet/customizer/sections/extra-consultstreet-cta-customizer-settings.php:42
+msgid "Enable/Disable"
+msgstr ""
+
+#: inc/consultstreet/customizer/extra-consultstreet-customizer-default.php:142
+#: inc/consultstreet/front-page/extra-consultstreet-theme-info.php:52
+msgid "Expert Instruction"
+msgstr ""
+
+#: inc/arilewp/customizer/extra-arilewp-customizer-default.php:245
+#: inc/arilewp/front-page/extra-arilewp-testimonial.php:138
+#: inc/arilewp/front-page/extra-arilewp-testimonial.php:181
+msgid "Financer"
+msgstr ""
+
+#: inc/consultstreet/customizer/extra-consultstreet-customizer-default.php:143
+#: inc/consultstreet/front-page/extra-consultstreet-theme-info.php:53
+msgid "Find the right instructor for you"
+msgstr ""
+
+#: inc/arilewp/customizer/extra-arilewp-customizer-default.php:238
+#: inc/arilewp/front-page/extra-arilewp-testimonial.php:122
+#: inc/arilewp/front-page/extra-arilewp-testimonial.php:169
+#: inc/consultstreet/customizer/extra-consultstreet-customizer-default.php:334
+#: inc/consultstreet/customizer/extra-consultstreet-customizer-default.php:345
+#: inc/consultstreet/customizer/extra-consultstreet-customizer-default.php:352
+#: inc/consultstreet/customizer/extra-consultstreet-customizer-default.php:359
+#: inc/consultstreet/front-page/extra-brightpress-testimonial.php:74
+#: inc/consultstreet/front-page/extra-brightpress-testimonial.php:90
+#: inc/consultstreet/front-page/extra-brightpress-testimonial.php:106
+#: inc/consultstreet/front-page/extra-consultstreet-testimonial.php:69
+msgid "Founder"
+msgstr ""
+
+#: inc/arilewp/customizer/extra-arilewp-customizer-options.php:19
+#: inc/consultstreet/customizer/extra-consultstreet-customizer-options.php:58
+msgid "Frontpage Sections"
+msgstr ""
+
+#: inc/arile-extra-activator.php:19
+msgid "Home"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://themearile.com/"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://themearile.com/arilewp/"
+msgstr ""
+
+#: inc/arilewp/customizer/sections/extra-arilewp-theme-info-customizer-settings.php:53
+#: inc/consultstreet/customizer/sections/extra-consultstreet-theme-info-customizer-settings.php:52
+msgid "Info"
+msgstr ""
+
+#: inc/consultstreet/customizer/extra-consultstreet-customizer-options.php:139
+msgid "Info Item"
+msgstr ""
+
+#: inc/consultstreet/customizer/extra-consultstreet-customizer-options.php:136
+msgid "Info Items Content"
+msgstr ""
+
+#: inc/arilewp/front-page/extra-arilewp-testimonial.php:153
+#: inc/arilewp/front-page/extra-arilewp-testimonial.php:192
+#: inc/consultstreet/front-page/extra-brightpress-testimonial.php:105
+msgid "Julia Cloe"
+msgstr ""
+
+#: inc/consultstreet/customizer/extra-consultstreet-customizer-options.php:387
+#: inc/consultstreet/front-page/extra-consultstreet-blog.php:3
+msgid "Latest News"
+msgstr ""
+
+#: inc/consultstreet/front-page/extra-consultstreet-service.php:137
+#: inc/consultstreet/front-page/extra-consultstreet-service.php:150
+#: inc/consultstreet/front-page/extra-consultstreet-service.php:163
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipisicing elit quos dolor quas "
+"molesty."
+msgstr ""
+
+#: inc/consultstreet/customizer/extra-consultstreet-customizer-default.php:293
+#: inc/consultstreet/customizer/extra-consultstreet-customizer-default.php:299
+#: inc/consultstreet/customizer/extra-consultstreet-customizer-default.php:305
+#: inc/consultstreet/customizer/extra-consultstreet-customizer-default.php:311
+#: inc/consultstreet/front-page/extra-consultstreet-project.php:104
+#: inc/consultstreet/front-page/extra-consultstreet-project.php:116
+#: inc/consultstreet/front-page/extra-consultstreet-project.php:128
+#: inc/consultstreet/front-page/extra-consultstreet-project.php:140
+msgid ""
+"Lorem ipsum dolor sit amet, sit sit consectetuer, etiam metus arcu ultrices "
+"eros, nam gravida et dapibus."
+msgstr ""
+
+#: inc/arilewp/front-page/extra-arilewp-service.php:116
+#: inc/arilewp/front-page/extra-arilewp-service.php:131
+#: inc/arilewp/front-page/extra-arilewp-service.php:146
+msgid ""
+"Lorem Ipsum is simply text of the printing and typesetting industry. Lorem "
+"ipsum has been dummy."
+msgstr ""
+
+#: inc/arilewp/customizer/extra-arilewp-customizer-options.php:24
+#: inc/consultstreet/customizer/extra-consultstreet-customizer-options.php:103
+msgid "Main Slider"
+msgstr ""
+
+#: inc/arilewp/front-page/extra-arilewp-testimonial.php:137
+#: inc/arilewp/front-page/extra-arilewp-testimonial.php:180
+#: inc/consultstreet/front-page/extra-brightpress-testimonial.php:89
+msgid "Mitchell Harris"
+msgstr ""
+
+#: inc/arilewp/front-page/extra-arilewp-testimonial.php:121
+#: inc/arilewp/front-page/extra-arilewp-testimonial.php:168
+#: inc/consultstreet/front-page/extra-brightpress-testimonial.php:73
+#: inc/consultstreet/front-page/extra-consultstreet-testimonial.php:68
+msgid "Olivia Kevinson"
+msgstr ""
+
+#: inc/arilewp/customizer/extra-arilewp-customizer-default.php:212
+#: inc/arilewp/front-page/extra-arilewp-project.php:110
+msgid "Online Store"
+msgstr ""
+
+#: inc/arilewp/customizer/extra-arilewp-customizer-options.php:214
+#: inc/arilewp/front-page/extra-arilewp-project.php:5
+msgid "Our Portfolio"
+msgstr ""
+
+#: inc/arilewp/customizer/extra-arilewp-customizer-options.php:183
+#: inc/arilewp/front-page/extra-arilewp-service.php:4
+msgid "Our Services"
+msgstr ""
+
+#: inc/consultstreet/customizer/extra-consultstreet-customizer-default.php:150
+#: inc/consultstreet/front-page/extra-consultstreet-theme-info.php:61
+msgid "Premium Support"
+msgstr ""
+
+#: inc/arilewp/customizer/extra-arilewp-customizer-options.php:100
+#: inc/consultstreet/customizer/extra-consultstreet-customizer-options.php:177
+#: inc/arilewp/customizer/sections/extra-arilewp-project-customizer-settings.php:69
+#: inc/consultstreet/customizer/sections/extra-consultstreet-blog-customizer-settings.php:51
+#: inc/consultstreet/customizer/sections/extra-consultstreet-project-customizer-settings.php:69
+msgid "Project"
+msgstr ""
+
+#: inc/arilewp/customizer/sections/extra-arilewp-project-customizer-settings.php:41
+#: inc/consultstreet/customizer/sections/extra-consultstreet-project-customizer-settings.php:41
+msgid "Project Enable/Disable"
+msgstr ""
+
+#: inc/arilewp/customizer/extra-arilewp-customizer-options.php:113
+#: inc/consultstreet/customizer/extra-consultstreet-customizer-options.php:190
+msgid "Project Item"
+msgstr ""
+
+#: inc/arilewp/customizer/extra-arilewp-customizer-options.php:109
+#: inc/consultstreet/customizer/extra-consultstreet-customizer-options.php:186
+msgid "Project Items Content"
+msgstr ""
+
+#: inc/arilewp/customizer/sections/extra-arilewp-project-customizer-settings.php:28
+#: inc/consultstreet/customizer/sections/extra-consultstreet-project-customizer-settings.php:28
+msgid "Project Options"
+msgstr ""
+
+#: inc/arilewp/customizer/extra-arilewp-customizer-default.php:130
+#: inc/arilewp/customizer/extra-arilewp-customizer-default.php:141
+#: inc/arilewp/customizer/extra-arilewp-customizer-default.php:152
+#: inc/arilewp/front-page/extra-arilewp-blog.php:74
+#: inc/consultstreet/front-page/extra-consultstreet-blog.php:65
+#: inc/consultstreet/front-page/extra-consultstreet-blog.php:100
+msgid "Read More"
+msgstr ""
+
+#: inc/arilewp/customizer/extra-arilewp-customizer-options.php:278
+#: inc/arilewp/front-page/extra-arilewp-blog.php:3
+msgid "Recent Updates"
+msgstr ""
+
+#: inc/arilewp/customizer/extra-arilewp-customizer-default.php:252
+#: inc/arilewp/front-page/extra-arilewp-testimonial.php:154
+#: inc/arilewp/front-page/extra-arilewp-testimonial.php:193
+msgid "Sales Manager"
+msgstr ""
+
+#: inc/arilewp/customizer/extra-arilewp-customizer-options.php:203
+#: inc/arilewp/customizer/extra-arilewp-customizer-options.php:235
+#: inc/arilewp/customizer/extra-arilewp-customizer-options.php:267
+#: inc/arilewp/customizer/extra-arilewp-customizer-options.php:298
+#: inc/consultstreet/customizer/extra-consultstreet-customizer-options.php:312
+#: inc/consultstreet/customizer/extra-consultstreet-customizer-options.php:344
+#: inc/consultstreet/customizer/extra-consultstreet-customizer-options.php:376
+#: inc/consultstreet/customizer/extra-consultstreet-customizer-options.php:407
+msgid "Section Description"
+msgstr ""
+
+#: inc/arilewp/customizer/extra-arilewp-customizer-options.php:189
+#: inc/arilewp/customizer/extra-arilewp-customizer-options.php:220
+#: inc/arilewp/customizer/extra-arilewp-customizer-options.php:252
+#: inc/arilewp/customizer/extra-arilewp-customizer-options.php:284
+#: inc/consultstreet/customizer/extra-consultstreet-customizer-options.php:298
+#: inc/consultstreet/customizer/extra-consultstreet-customizer-options.php:329
+#: inc/consultstreet/customizer/extra-consultstreet-customizer-options.php:361
+#: inc/consultstreet/customizer/extra-consultstreet-customizer-options.php:393
+msgid "Section Title"
+msgstr ""
+
+#: inc/arilewp/customizer/extra-arilewp-customizer-options.php:74
+#: inc/consultstreet/customizer/extra-consultstreet-customizer-options.php:150
+#: inc/consultstreet/customizer/sections/extra-consultstreet-service-customizer-settings.php:53
+msgid "Service"
+msgstr ""
+
+#: inc/arilewp/customizer/sections/extra-arilewp-service-customizer-settings.php:43
+#: inc/consultstreet/customizer/sections/extra-consultstreet-service-customizer-settings.php:43
+msgid "Service Enable/Disable"
+msgstr ""
+
+#: inc/arilewp/customizer/extra-arilewp-customizer-options.php:87
+#: inc/consultstreet/customizer/extra-consultstreet-customizer-options.php:163
+msgid "Service Item"
+msgstr ""
+
+#: inc/arilewp/customizer/extra-arilewp-customizer-options.php:83
+#: inc/consultstreet/customizer/extra-consultstreet-customizer-options.php:159
+msgid "Service Items Content"
+msgstr ""
+
+#: inc/arilewp/customizer/sections/extra-arilewp-service-customizer-settings.php:30
+#: inc/consultstreet/customizer/sections/extra-consultstreet-service-customizer-settings.php:30
+msgid "Service Options"
+msgstr ""
+
+#: inc/arilewp/customizer/extra-arilewp-customizer-options.php:36
+#: inc/consultstreet/customizer/extra-consultstreet-customizer-options.php:115
+msgid "Slide Item"
+msgstr ""
+
+#: inc/arilewp/customizer/sections/extra-arilewp-slider-customizer-settings.php:42
+#: inc/consultstreet/customizer/sections/extra-consultstreet-slider-customizer-settings.php:42
+msgid "Slider Enable/Disable"
+msgstr ""
+
+#: inc/arilewp/customizer/extra-arilewp-customizer-options.php:33
+#: inc/consultstreet/customizer/extra-consultstreet-customizer-options.php:112
+msgid "Slider Items Content"
+msgstr ""
+
+#: inc/arilewp/customizer/sections/extra-arilewp-slider-customizer-settings.php:28
+#: inc/consultstreet/customizer/sections/extra-consultstreet-slider-customizer-settings.php:28
+msgid "Slider Options"
+msgstr ""
+
+#: inc/arilewp/customizer/sections/extra-arilewp-slider-customizer-settings.php:65
+#: inc/consultstreet/customizer/sections/extra-consultstreet-slider-customizer-settings.php:81
+msgid "Slides"
+msgstr ""
+
+#: inc/consultstreet/customizer/sections/extra-consultstreet-top-header-customizer-settings.php:106
+msgid "Social Icons"
+msgstr ""
+
+#: inc/consultstreet/customizer/extra-consultstreet-customizer-options.php:401
+#: inc/consultstreet/front-page/extra-consultstreet-blog.php:4
+msgid ""
+"Stay updated with the latest news by reading our articles written by content "
+"writers in the industry."
+msgstr ""
+
+#: inc/arilewp/customizer/extra-arilewp-customizer-options.php:123
+#: inc/consultstreet/customizer/extra-consultstreet-customizer-options.php:200
+#: inc/arilewp/customizer/sections/extra-arilewp-testimonial-customizer-settings.php:64
+#: inc/consultstreet/customizer/sections/extra-consultstreet-testimonial-customizer-settings.php:51
+msgid "Testimonial"
+msgstr ""
+
+#: inc/arilewp/customizer/sections/extra-arilewp-testimonial-customizer-settings.php:41
+#: inc/consultstreet/customizer/sections/extra-consultstreet-testimonial-customizer-settings.php:41
+msgid "Testimonial Enable/Disable"
+msgstr ""
+
+#: inc/arilewp/customizer/extra-arilewp-customizer-options.php:136
+#: inc/consultstreet/customizer/extra-consultstreet-customizer-options.php:213
+msgid "Testimonial Item"
+msgstr ""
+
+#: inc/arilewp/customizer/extra-arilewp-customizer-options.php:133
+#: inc/consultstreet/customizer/extra-consultstreet-customizer-options.php:210
+msgid "Testimonial Items Content"
+msgstr ""
+
+#: inc/arilewp/customizer/sections/extra-arilewp-testimonial-customizer-settings.php:28
+#: inc/consultstreet/customizer/sections/extra-consultstreet-testimonial-customizer-settings.php:28
+msgid "Testimonial Options"
+msgstr ""
+
+#: inc/arilewp/customizer/extra-arilewp-customizer-options.php:246
+#: inc/arilewp/front-page/extra-arilewp-testimonial.php:4
+#: inc/consultstreet/customizer/extra-consultstreet-customizer-options.php:355
+#: inc/consultstreet/front-page/extra-brightpress-testimonial.php:4
+#: inc/consultstreet/front-page/extra-consultstreet-testimonial.php:4
+msgid "Testimonials"
+msgstr ""
+
+#: inc/arilewp/customizer/extra-arilewp-customizer-options.php:64
+msgid "Theme Info"
+msgstr ""
+
+#: inc/arilewp/customizer/extra-arilewp-customizer-options.php:52
+#: inc/consultstreet/customizer/extra-consultstreet-customizer-options.php:127
+msgid "Theme Info Area"
+msgstr ""
+
+#: inc/arilewp/customizer/sections/extra-arilewp-theme-info-customizer-settings.php:42
+msgid "Theme Info Area Enable/Disable"
+msgstr ""
+
+#: inc/arilewp/customizer/sections/extra-arilewp-theme-info-customizer-settings.php:29
+msgid "Theme Info Area Options"
+msgstr ""
+
+#: inc/arilewp/customizer/extra-arilewp-customizer-options.php:61
+msgid "Theme Info Content"
+msgstr ""
+
+#. Author of the plugin
+msgid "ThemeArile"
+msgstr ""
+
+#: inc/consultstreet/customizer/sections/extra-consultstreet-top-header-customizer-settings.php:96
+msgid "Top Header Info"
+msgstr ""
+
+#: inc/arilewp/customizer/extra-arilewp-customizer-default.php:78
+#: inc/arilewp/front-page/extra-arilewp-siteinfo.php:36
+msgid "Trusted Services"
+msgstr ""
+
+#: inc/arilewp/customizer/extra-arilewp-customizer-default.php:79
+#: inc/arilewp/front-page/extra-arilewp-siteinfo.php:37
+msgid "We are trusted our customers"
+msgstr ""
+
+#: inc/arilewp/customizer/extra-arilewp-customizer-default.php:47
+#: inc/arilewp/customizer/extra-arilewp-customizer-default.php:56
+#: inc/arilewp/front-page/extra-arilewp-slider.php:61
+#: inc/arilewp/front-page/extra-arilewp-slider.php:77
+#: inc/arilewp/front-page/extra-strangerwp-slider.php:86
+#: inc/arilewp/front-page/extra-strangerwp-slider.php:102
+msgid ""
+"We are very happy to present to you ArileWP, the powerful and flexible multi-"
+"purpose WordPress theme. Not only does ArileWP outstand with many new "
+"features but suitable for all creatives and businesses. Join 2500+ customers."
+msgstr ""
+
+#: inc/arilewp/front-page/extra-arilewp-slider.php:60
+msgid "We Create Amazing WordPress Themes"
+msgstr ""
+
+#: inc/consultstreet/customizer/extra-consultstreet-customizer-default.php:111
+#: inc/consultstreet/customizer/extra-consultstreet-customizer-default.php:120
+#: inc/consultstreet/front-page/extra-consultstreet-slider.php:77
+#: inc/consultstreet/front-page/extra-consultstreet-slider.php:92
+msgid ""
+"We provide world best consulting services for our clients to grow their "
+"businesses, so dont waste your time, contact us and see the results "
+"instantly."
+msgstr ""
+
+#: inc/arilewp/customizer/extra-arilewp-customizer-default.php:90
+#: inc/arilewp/front-page/extra-arilewp-siteinfo.php:54
+#: inc/consultstreet/customizer/extra-consultstreet-customizer-default.php:158
+#: inc/consultstreet/front-page/extra-consultstreet-theme-info.php:70
+msgid "Well Experienced"
+msgstr ""
+
+#: inc/consultstreet/customizer/extra-consultstreet-customizer-options.php:370
+#: inc/consultstreet/front-page/extra-brightpress-testimonial.php:5
+#: inc/consultstreet/front-page/extra-consultstreet-testimonial.php:5
+msgid "What our customers are saying about us after using our products."
+msgstr ""

@@ -1,0 +1,172 @@
+2021-01-14T02:52:59+00:00 CRITICAL Uncaught Error: Class "ConsultStreet_Customize_Base_Option" not found in C:\xamppp\htdocs\wordpress\wp-content\plugins\arile-extra\inc\consultstreet\customizer\sections\extra-consultstreet-top-header-customizer-settings.php:15
+Stack trace:
+#0 C:\xamppp\htdocs\wordpress\wp-content\plugins\arile-extra\inc\consultstreet\customizer\extra-consultstreet-customizer.php(21): require()
+#1 C:\xamppp\htdocs\wordpress\wp-content\plugins\arile-extra\inc\consultstreet\customizer\extra-consultstreet-customizer.php(40): ArileExtra_ConsultStreet_Customizer->arileextra_consultstreet_customizer_settings()
+#2 C:\xamppp\htdocs\wordpress\wp-content\plugins\arile-extra\inc\consultstreet\consultstreet.php(6): require('C:\\xamppp\\htdoc...')
+#3 C:\xamppp\htdocs\wordpress\wp-content\plugins\arile-extra\arile-extra.php(32): require('C:\\xamppp\\htdoc...')
+#4 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): arile_extra_init('')
+#5 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 C:\xamppp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#7 C:\xamppp\htdocs\wordpress\wp-settings.php(557): do_action('init')
+#8 C:\xamppp\htdocs\wordpress\wp-config.php(92): require_once('C:\\xamppp\\htdoc...')
+#9 C:\xamppp\htdocs\wordpress\wp-load.php(37): require_once('C:\\xamppp\\htdoc...')
+#10 C:\xamppp\htdocs\wordpress\wp-cron.php(44): require_once('C:\\xamppp\\htdoc...')
+#11 {main}
+  thrown en C:\xamppp\htdocs\wordpress\wp-content\plugins\arile-extra\inc\consultstreet\customizer\sections\extra-consultstreet-top-header-customizer-settings.php en la línea 15
+
+2021-01-14T02:53:07+00:00 CRITICAL Uncaught Error: Class "ConsultStreet_Customize_Base_Option" not found in C:\xamppp\htdocs\wordpress\wp-content\plugins\arile-extra\inc\consultstreet\customizer\sections\extra-consultstreet-top-header-customizer-settings.php:15
+Stack trace:
+#0 C:\xamppp\htdocs\wordpress\wp-content\plugins\arile-extra\inc\consultstreet\customizer\extra-consultstreet-customizer.php(21): require()
+#1 C:\xamppp\htdocs\wordpress\wp-content\plugins\arile-extra\inc\consultstreet\customizer\extra-consultstreet-customizer.php(40): ArileExtra_ConsultStreet_Customizer->arileextra_consultstreet_customizer_settings()
+#2 C:\xamppp\htdocs\wordpress\wp-content\plugins\arile-extra\inc\consultstreet\consultstreet.php(6): require('C:\\xamppp\\htdoc...')
+#3 C:\xamppp\htdocs\wordpress\wp-content\plugins\arile-extra\arile-extra.php(32): require('C:\\xamppp\\htdoc...')
+#4 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): arile_extra_init('')
+#5 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 C:\xamppp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#7 C:\xamppp\htdocs\wordpress\wp-settings.php(557): do_action('init')
+#8 C:\xamppp\htdocs\wordpress\wp-config.php(92): require_once('C:\\xamppp\\htdoc...')
+#9 C:\xamppp\htdocs\wordpress\wp-load.php(37): require_once('C:\\xamppp\\htdoc...')
+#10 C:\xamppp\htdocs\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xamppp\\htdoc...')
+#11 {main}
+  thrown en C:\xamppp\htdocs\wordpress\wp-content\plugins\arile-extra\inc\consultstreet\customizer\sections\extra-consultstreet-top-header-customizer-settings.php en la línea 15
+
+2021-01-14T02:53:19+00:00 CRITICAL Uncaught Error: Class "ConsultStreet_Customize_Base_Option" not found in C:\xamppp\htdocs\wordpress\wp-content\plugins\arile-extra\inc\consultstreet\customizer\sections\extra-consultstreet-top-header-customizer-settings.php:15
+Stack trace:
+#0 C:\xamppp\htdocs\wordpress\wp-content\plugins\arile-extra\inc\consultstreet\customizer\extra-consultstreet-customizer.php(21): require()
+#1 C:\xamppp\htdocs\wordpress\wp-content\plugins\arile-extra\inc\consultstreet\customizer\extra-consultstreet-customizer.php(40): ArileExtra_ConsultStreet_Customizer->arileextra_consultstreet_customizer_settings()
+#2 C:\xamppp\htdocs\wordpress\wp-content\plugins\arile-extra\inc\consultstreet\consultstreet.php(6): require('C:\\xamppp\\htdoc...')
+#3 C:\xamppp\htdocs\wordpress\wp-content\plugins\arile-extra\arile-extra.php(32): require('C:\\xamppp\\htdoc...')
+#4 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): arile_extra_init('')
+#5 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 C:\xamppp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#7 C:\xamppp\htdocs\wordpress\wp-settings.php(557): do_action('init')
+#8 C:\xamppp\htdocs\wordpress\wp-config.php(92): require_once('C:\\xamppp\\htdoc...')
+#9 C:\xamppp\htdocs\wordpress\wp-load.php(37): require_once('C:\\xamppp\\htdoc...')
+#10 C:\xamppp\htdocs\wordpress\wp-admin\admin.php(34): require_once('C:\\xamppp\\htdoc...')
+#11 C:\xamppp\htdocs\wordpress\wp-admin\plugins.php(10): require_once('C:\\xamppp\\htdoc...')
+#12 {main}
+  thrown en C:\xamppp\htdocs\wordpress\wp-content\plugins\arile-extra\inc\consultstreet\customizer\sections\extra-consultstreet-top-header-customizer-settings.php en la línea 15
+
+2021-01-14T20:06:17+00:00 CRITICAL Maximum execution time of 120 seconds exceeded en C:\xamppp\htdocs\wordpress\wp-content\plugins\gym-management\settings.php en la línea 53
+
+2021-01-14T20:06:19+00:00 CRITICAL Maximum execution time of 120 seconds exceeded en C:\xamppp\htdocs\wordpress\wp-content\plugins\gym-management\settings.php en la línea 53
+
+2021-01-14T20:07:49+00:00 CRITICAL Uncaught Error: Call to a member function format() on bool in C:\xamppp\htdocs\wordpress\wp-content\plugins\gym-management\gmgt_function.php:4616
+Stack trace:
+#0 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): MJ_gmgt_load_enddate('')
+#1 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 C:\xamppp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\xamppp\htdocs\wordpress\wp-admin\admin-ajax.php(184): do_action('wp_ajax_MJ_gmgt...')
+#4 {main}
+  thrown en C:\xamppp\htdocs\wordpress\wp-content\plugins\gym-management\gmgt_function.php en la línea 4616
+
+2021-01-14T20:08:01+00:00 CRITICAL Array and string offset access syntax with curly braces is no longer supported en C:\xamppp\htdocs\wordpress\wp-content\plugins\gym-management\lib\mpdf\mpdf.php en la línea 1981
+
+2021-01-14T20:08:18+00:00 CRITICAL Array and string offset access syntax with curly braces is no longer supported en C:\xamppp\htdocs\wordpress\wp-content\plugins\gym-management\lib\mpdf\mpdf.php en la línea 1981
+
+2021-01-14T20:13:44+00:00 CRITICAL Array and string offset access syntax with curly braces is no longer supported en C:\xamppp\htdocs\wordpress\wp-content\plugins\gym-management\lib\mpdf\mpdf.php en la línea 1981
+
+2021-01-14T20:13:49+00:00 CRITICAL Array and string offset access syntax with curly braces is no longer supported en C:\xamppp\htdocs\wordpress\wp-content\plugins\gym-management\lib\mpdf\mpdf.php en la línea 1981
+
+2021-01-14T20:13:57+00:00 CRITICAL Array and string offset access syntax with curly braces is no longer supported en C:\xamppp\htdocs\wordpress\wp-content\plugins\gym-management\lib\mpdf\mpdf.php en la línea 1981
+
+2021-01-14T20:14:01+00:00 CRITICAL Array and string offset access syntax with curly braces is no longer supported en C:\xamppp\htdocs\wordpress\wp-content\plugins\gym-management\lib\mpdf\mpdf.php en la línea 1981
+
+2021-01-14T21:10:02+00:00 CRITICAL Uncaught TypeError: array_push(): Argument #1 ($array) must be of type array, null given in C:\xamppp\htdocs\wordpress\wp-content\plugins\wp-auto-translate-free\classes\class-wp-translatorea-connector.php:29
+Stack trace:
+#0 C:\xamppp\htdocs\wordpress\wp-content\plugins\wp-auto-translate-free\classes\class-wp-translatorea-connector.php(29): array_push(NULL, NULL)
+#1 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): WP_TranslatorEA_Connector::build_translatorea_script('')
+#2 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 C:\xamppp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#4 C:\xamppp\htdocs\wordpress\wp-includes\general-template.php(3021): do_action('wp_footer')
+#5 C:\xamppp\htdocs\wordpress\wp-content\themes\fitnessbase\footer.php(46): wp_footer()
+#6 C:\xamppp\htdocs\wordpress\wp-includes\template.php(730): require_once('C:\\xamppp\\htdoc...')
+#7 C:\xamppp\htdocs\wordpress\wp-includes\template.php(676): load_template('C:\\xamppp\\htdoc...', true, Array)
+#8 C:\xamppp\htdocs\wordpress\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#9 C:\xamppp\htdocs\wordpress\wp-content\themes\consultstreet\page-templates\frontpage.php(15): get_footer()
+#10 C:\xamppp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xamppp\\htdoc...')
+#11 C:\xamppp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xamppp\\htdoc...')
+#12 C:\xamppp\htdocs\wordpress\index.php(17): require('C:\\xamppp\\htdoc...')
+#13 {main}
+  thrown en C:\xamppp\htdocs\wordpress\wp-content\plugins\wp-auto-translate-free\classes\class-wp-translatorea-connector.php en la línea 29
+
+2021-01-14T21:11:43+00:00 CRITICAL Maximum execution time of 120 seconds exceeded en C:\xamppp\htdocs\wordpress\wp-content\plugins\astra-sites\inc\importers\class-astra-widget-importer.php en la línea 15
+
+2021-01-14T21:12:31+00:00 CRITICAL Maximum execution time of 120 seconds exceeded en C:\xamppp\htdocs\wordpress\wp-content\plugins\buddypress\bp-core\admin\bp-core-admin-slugs.php en la línea 290
+
+2021-01-14T21:12:32+00:00 CRITICAL Maximum execution time of 120 seconds exceeded en C:\xamppp\htdocs\wordpress\wp-content\plugins\buddypress\bp-core\admin\bp-core-admin-tools.php en la línea 93
+
+2021-01-14T21:13:16+00:00 CRITICAL Uncaught TypeError: array_push(): Argument #1 ($array) must be of type array, null given in C:\xamppp\htdocs\wordpress\wp-content\plugins\wp-auto-translate-free\classes\class-wp-translatorea-connector.php:29
+Stack trace:
+#0 C:\xamppp\htdocs\wordpress\wp-content\plugins\wp-auto-translate-free\classes\class-wp-translatorea-connector.php(29): array_push(NULL, NULL)
+#1 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): WP_TranslatorEA_Connector::build_translatorea_script('')
+#2 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 C:\xamppp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#4 C:\xamppp\htdocs\wordpress\wp-includes\general-template.php(3021): do_action('wp_footer')
+#5 C:\xamppp\htdocs\wordpress\wp-content\themes\fitnessbase\footer.php(46): wp_footer()
+#6 C:\xamppp\htdocs\wordpress\wp-includes\template.php(730): require_once('C:\\xamppp\\htdoc...')
+#7 C:\xamppp\htdocs\wordpress\wp-includes\template.php(676): load_template('C:\\xamppp\\htdoc...', true, Array)
+#8 C:\xamppp\htdocs\wordpress\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#9 C:\xamppp\htdocs\wordpress\wp-content\themes\consultstreet\page-templates\frontpage.php(15): get_footer()
+#10 C:\xamppp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xamppp\\htdoc...')
+#11 C:\xamppp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xamppp\\htdoc...')
+#12 C:\xamppp\htdocs\wordpress\index.php(17): require('C:\\xamppp\\htdoc...')
+#13 {main}
+  thrown en C:\xamppp\htdocs\wordpress\wp-content\plugins\wp-auto-translate-free\classes\class-wp-translatorea-connector.php en la línea 29
+
+2021-01-14T21:13:44+00:00 CRITICAL Maximum execution time of 120 seconds exceeded en C:\xamppp\htdocs\wordpress\wp-content\plugins\gym-management\settings.php en la línea 53
+
+2021-01-14T21:13:52+00:00 CRITICAL Uncaught TypeError: array_push(): Argument #1 ($array) must be of type array, null given in C:\xamppp\htdocs\wordpress\wp-content\plugins\wp-auto-translate-free\classes\class-wp-translatorea-connector.php:29
+Stack trace:
+#0 C:\xamppp\htdocs\wordpress\wp-content\plugins\wp-auto-translate-free\classes\class-wp-translatorea-connector.php(29): array_push(NULL, NULL)
+#1 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): WP_TranslatorEA_Connector::build_translatorea_script('')
+#2 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 C:\xamppp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#4 C:\xamppp\htdocs\wordpress\wp-includes\general-template.php(3021): do_action('wp_footer')
+#5 C:\xamppp\htdocs\wordpress\wp-content\themes\fitnessbase\footer.php(46): wp_footer()
+#6 C:\xamppp\htdocs\wordpress\wp-includes\template.php(730): require_once('C:\\xamppp\\htdoc...')
+#7 C:\xamppp\htdocs\wordpress\wp-includes\template.php(676): load_template('C:\\xamppp\\htdoc...', true, Array)
+#8 C:\xamppp\htdocs\wordpress\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#9 C:\xamppp\htdocs\wordpress\wp-content\themes\consultstreet\page-templates\frontpage.php(15): get_footer()
+#10 C:\xamppp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xamppp\\htdoc...')
+#11 C:\xamppp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xamppp\\htdoc...')
+#12 C:\xamppp\htdocs\wordpress\index.php(17): require('C:\\xamppp\\htdoc...')
+#13 {main}
+  thrown en C:\xamppp\htdocs\wordpress\wp-content\plugins\wp-auto-translate-free\classes\class-wp-translatorea-connector.php en la línea 29
+
+2021-01-14T21:15:23+00:00 CRITICAL Uncaught TypeError: array_push(): Argument #1 ($array) must be of type array, null given in C:\xamppp\htdocs\wordpress\wp-content\plugins\wp-auto-translate-free\classes\class-wp-translatorea-connector.php:29
+Stack trace:
+#0 C:\xamppp\htdocs\wordpress\wp-content\plugins\wp-auto-translate-free\classes\class-wp-translatorea-connector.php(29): array_push(NULL, NULL)
+#1 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): WP_TranslatorEA_Connector::build_translatorea_script('')
+#2 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 C:\xamppp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#4 C:\xamppp\htdocs\wordpress\wp-includes\general-template.php(3021): do_action('wp_footer')
+#5 C:\xamppp\htdocs\wordpress\wp-content\themes\fitnessbase\footer.php(46): wp_footer()
+#6 C:\xamppp\htdocs\wordpress\wp-includes\template.php(730): require_once('C:\\xamppp\\htdoc...')
+#7 C:\xamppp\htdocs\wordpress\wp-includes\template.php(676): load_template('C:\\xamppp\\htdoc...', true, Array)
+#8 C:\xamppp\htdocs\wordpress\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#9 C:\xamppp\htdocs\wordpress\wp-content\themes\consultstreet\page-templates\frontpage.php(15): get_footer()
+#10 C:\xamppp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xamppp\\htdoc...')
+#11 C:\xamppp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xamppp\\htdoc...')
+#12 C:\xamppp\htdocs\wordpress\index.php(17): require('C:\\xamppp\\htdoc...')
+#13 {main}
+  thrown en C:\xamppp\htdocs\wordpress\wp-content\plugins\wp-auto-translate-free\classes\class-wp-translatorea-connector.php en la línea 29
+
+2021-01-14T21:24:50+00:00 CRITICAL Uncaught TypeError: array_push(): Argument #1 ($array) must be of type array, null given in C:\xamppp\htdocs\wordpress\wp-content\plugins\wp-auto-translate-free\classes\class-wp-translatorea-connector.php:29
+Stack trace:
+#0 C:\xamppp\htdocs\wordpress\wp-content\plugins\wp-auto-translate-free\classes\class-wp-translatorea-connector.php(29): array_push(NULL, NULL)
+#1 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): WP_TranslatorEA_Connector::build_translatorea_script('')
+#2 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 C:\xamppp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#4 C:\xamppp\htdocs\wordpress\wp-includes\general-template.php(3021): do_action('wp_footer')
+#5 C:\xamppp\htdocs\wordpress\wp-content\themes\fitnessbase\footer.php(46): wp_footer()
+#6 C:\xamppp\htdocs\wordpress\wp-includes\template.php(730): require_once('C:\\xamppp\\htdoc...')
+#7 C:\xamppp\htdocs\wordpress\wp-includes\template.php(676): load_template('C:\\xamppp\\htdoc...', true, Array)
+#8 C:\xamppp\htdocs\wordpress\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#9 C:\xamppp\htdocs\wordpress\wp-content\themes\consultstreet\page-templates\frontpage.php(15): get_footer()
+#10 C:\xamppp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xamppp\\htdoc...')
+#11 C:\xamppp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xamppp\\htdoc...')
+#12 C:\xamppp\htdocs\wordpress\index.php(17): require('C:\\xamppp\\htdoc...')
+#13 {main}
+  thrown en C:\xamppp\htdocs\wordpress\wp-content\plugins\wp-auto-translate-free\classes\class-wp-translatorea-connector.php en la línea 29
+

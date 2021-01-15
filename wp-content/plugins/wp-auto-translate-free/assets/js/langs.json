@@ -1,0 +1,44 @@
+[
+    {
+        "short": "en",
+        "img": "https://image.flaticon.com/icons/svg/299/299722.svg",
+        "name": "English"
+
+    },
+    {
+        "short": "de",
+        "img": "https://image.flaticon.com/icons/svg/299/299786.svg",
+        "name": "Deutsch"
+
+    },
+    {
+        "short": "pl",
+        "img": "https://image.flaticon.com/icons/svg/299/299737.svg",
+        "name": "Polski"
+
+    },
+    {
+        "short": "es",
+        "img": "https://image.flaticon.com/icons/svg/299/299820.svg",
+        "name": "Español"
+
+    },
+    {
+        "short": "fr",
+        "img": "https://image.flaticon.com/icons/svg/299/299753.svg",
+        "name": "Français"
+
+    },
+    {
+        "short": "pt",
+        "img": "https://image.flaticon.com/icons/svg/299/299724.svg",
+        "name": "Português"
+
+    },
+    {
+        "short": "ru",
+        "img": "https://image.flaticon.com/icons/svg/299/299700.svg",
+        "name": "русский"
+
+    }
+]

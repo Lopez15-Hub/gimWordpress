@@ -1,0 +1,78 @@
+2020-12-22T14:46:49+00:00 CRITICAL Maximum execution time of 60 seconds exceeded en C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce-gateway-stripe\includes\class-wc-stripe-payment-tokens.php en la línea 2
+
+2020-12-22T14:49:30+00:00 CRITICAL Maximum execution time of 60 seconds exceeded en C:\xamppp\htdocs\wordpress\wp-includes\wp-db.php en la línea 2056
+
+2020-12-22T15:30:37+00:00 CRITICAL Maximum execution time of 60 seconds exceeded en C:\xamppp\htdocs\wordpress\wp-includes\block-patterns\large-header-button.php en la línea 9
+
+2020-12-22T15:30:37+00:00 CRITICAL Maximum execution time of 60 seconds exceeded en C:\xamppp\htdocs\wordpress\wp-includes\block-patterns\large-header-button.php en la línea 9
+
+2020-12-22T15:30:38+00:00 CRITICAL Maximum execution time of 60 seconds exceeded en C:\xamppp\htdocs\wordpress\wp-includes\Requests\Transport\cURL.php en la línea 163
+
+2020-12-22T15:54:38+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($function) must be a valid callback, function "woocommerce_before_add_to_cart_form" not found or invalid function name in C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xamppp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#2 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\templates\content-single-product.php(68): do_action('woocommerce_sin...')
+#3 C:\xamppp\htdocs\wordpress\wp-includes\template.php(732): require('C:\\xamppp\\htdoc...')
+#4 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xamppp\\htdoc...', false)
+#5 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\templates\single-product.php(42): wc_get_template_part('content', 'single-product')
+#6 C:\xamppp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xamppp\\htdoc...')
+#7 C:\xamppp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xamppp\\htdoc...')
+#8 C:\xamppp\htdocs\wordpress\index.php(17): require('C:\\xamppp\\htdoc...')
+#9 {main}
+  thrown en C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php en la línea 287
+
+2020-12-22T15:54:41+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($function) must be a valid callback, function "woocommerce_before_add_to_cart_form" not found or invalid function name in C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xamppp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#2 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\templates\content-single-product.php(68): do_action('woocommerce_sin...')
+#3 C:\xamppp\htdocs\wordpress\wp-includes\template.php(732): require('C:\\xamppp\\htdoc...')
+#4 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xamppp\\htdoc...', false)
+#5 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\templates\single-product.php(42): wc_get_template_part('content', 'single-product')
+#6 C:\xamppp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xamppp\\htdoc...')
+#7 C:\xamppp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xamppp\\htdoc...')
+#8 C:\xamppp\htdocs\wordpress\index.php(17): require('C:\\xamppp\\htdoc...')
+#9 {main}
+  thrown en C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php en la línea 287
+
+2020-12-22T16:19:00+00:00 CRITICAL syntax error, unexpected token "echo" en C:\xamppp\htdocs\wordpress\wp-content\themes\storefront-child\functions.php en la línea 18
+
+2020-12-22T16:19:09+00:00 CRITICAL syntax error, unexpected token "echo" en C:\xamppp\htdocs\wordpress\wp-content\themes\storefront-child\functions.php en la línea 18
+
+2020-12-22T16:19:13+00:00 CRITICAL syntax error, unexpected token "echo" en C:\xamppp\htdocs\wordpress\wp-content\themes\storefront-child\functions.php en la línea 18
+
+2020-12-22T16:22:39+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($function) must be a valid callback, function "woocommerce_template_loop_product_title" not found or invalid function name in C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xamppp\htdocs\wordpress\wp-includes\plugin.php(212): WP_Hook->apply_filters('titulo', Array)
+#1 C:\xamppp\htdocs\wordpress\wp-content\themes\storefront-child\functions.php(15): apply_filters('woocommerce_sho...', 'titulo')
+#2 C:\xamppp\htdocs\wordpress\wp-settings.php(525): include('C:\\xamppp\\htdoc...')
+#3 C:\xamppp\htdocs\wordpress\wp-config.php(92): require_once('C:\\xamppp\\htdoc...')
+#4 C:\xamppp\htdocs\wordpress\wp-load.php(37): require_once('C:\\xamppp\\htdoc...')
+#5 C:\xamppp\htdocs\wordpress\wp-blog-header.php(13): require_once('C:\\xamppp\\htdoc...')
+#6 C:\xamppp\htdocs\wordpress\index.php(17): require('C:\\xamppp\\htdoc...')
+#7 {main}
+  thrown en C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php en la línea 287
+
+2020-12-22T16:25:34+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function remove_action(), 1 passed in C:\xamppp\htdocs\wordpress\wp-content\themes\storefront-child\functions.php on line 15 and at least 2 expected in C:\xamppp\htdocs\wordpress\wp-includes\plugin.php:590
+Stack trace:
+#0 C:\xamppp\htdocs\wordpress\wp-content\themes\storefront-child\functions.php(15): remove_action('woocommerce_bef...')
+#1 C:\xamppp\htdocs\wordpress\wp-settings.php(525): include('C:\\xamppp\\htdoc...')
+#2 C:\xamppp\htdocs\wordpress\wp-config.php(92): require_once('C:\\xamppp\\htdoc...')
+#3 C:\xamppp\htdocs\wordpress\wp-load.php(37): require_once('C:\\xamppp\\htdoc...')
+#4 C:\xamppp\htdocs\wordpress\wp-blog-header.php(13): require_once('C:\\xamppp\\htdoc...')
+#5 C:\xamppp\htdocs\wordpress\index.php(17): require('C:\\xamppp\\htdoc...')
+#6 {main}
+  thrown en C:\xamppp\htdocs\wordpress\wp-includes\plugin.php en la línea 590
+
+2020-12-22T16:25:38+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function remove_action(), 1 passed in C:\xamppp\htdocs\wordpress\wp-content\themes\storefront-child\functions.php on line 15 and at least 2 expected in C:\xamppp\htdocs\wordpress\wp-includes\plugin.php:590
+Stack trace:
+#0 C:\xamppp\htdocs\wordpress\wp-content\themes\storefront-child\functions.php(15): remove_action('woocommerce_bef...')
+#1 C:\xamppp\htdocs\wordpress\wp-settings.php(525): include('C:\\xamppp\\htdoc...')
+#2 C:\xamppp\htdocs\wordpress\wp-config.php(92): require_once('C:\\xamppp\\htdoc...')
+#3 C:\xamppp\htdocs\wordpress\wp-load.php(37): require_once('C:\\xamppp\\htdoc...')
+#4 C:\xamppp\htdocs\wordpress\wp-blog-header.php(13): require_once('C:\\xamppp\\htdoc...')
+#5 C:\xamppp\htdocs\wordpress\index.php(17): require('C:\\xamppp\\htdoc...')
+#6 {main}
+  thrown en C:\xamppp\htdocs\wordpress\wp-includes\plugin.php en la línea 590
+

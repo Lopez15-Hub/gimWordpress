@@ -1,0 +1,254 @@
+2021-01-11T18:35:24+00:00 CRITICAL Maximum execution time of 60 seconds exceeded en C:\xamppp\htdocs\wordpress\wp-admin\includes\class-wp-site-health-auto-updates.php en la línea 360
+
+2021-01-11T18:40:53+00:00 CRITICAL Maximum execution time of 60 seconds exceeded en C:\xamppp\htdocs\wordpress\wp-includes\class-wp-customize-nav-menus.php en la línea 1588
+
+2021-01-11T18:45:32+00:00 CRITICAL Maximum execution time of 60 seconds exceeded en C:\xamppp\htdocs\wordpress\wp-admin\includes\class-custom-image-header.php en la línea 1516
+
+2021-01-11T18:45:38+00:00 CRITICAL Maximum execution time of 60 seconds exceeded en C:\xamppp\htdocs\wordpress\wp-includes\Requests\Transport\cURL.php en la línea 441
+
+2021-01-11T18:53:44+00:00 CRITICAL Maximum execution time of 60 seconds exceeded en C:\xamppp\htdocs\wordpress\wp-admin\includes\file.php en la línea 16
+
+2021-01-11T18:53:44+00:00 CRITICAL Maximum execution time of 60 seconds exceeded en C:\xamppp\htdocs\wordpress\wp-admin\includes\media.php en la línea 3822
+
+2021-01-11T19:08:48+00:00 CRITICAL Uncaught TypeError: call_user_func(): Argument #1 ($function) must be a valid callback, function "vw_fitness_gym_customize_partial_blogname" not found or invalid function name in C:\xamppp\htdocs\wordpress\wp-includes\customize\class-wp-customize-partial.php:221
+Stack trace:
+#0 C:\xamppp\htdocs\wordpress\wp-includes\customize\class-wp-customize-selective-refresh.php(371): WP_Customize_Partial->render(Array)
+#1 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): WP_Customize_Selective_Refresh->handle_render_partials_request('')
+#2 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xamppp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#4 C:\xamppp\htdocs\wordpress\wp-includes\template-loader.php(13): do_action('template_redire...')
+#5 C:\xamppp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xamppp\\htdoc...')
+#6 C:\xamppp\htdocs\wordpress\index.php(17): require('C:\\xamppp\\htdoc...')
+#7 {main}
+  thrown en C:\xamppp\htdocs\wordpress\wp-includes\customize\class-wp-customize-partial.php en la línea 221
+
+2021-01-11T19:08:49+00:00 CRITICAL Uncaught TypeError: call_user_func(): Argument #1 ($function) must be a valid callback, function "vw_fitness_gym_customize_partial_blogname" not found or invalid function name in C:\xamppp\htdocs\wordpress\wp-includes\customize\class-wp-customize-partial.php:221
+Stack trace:
+#0 C:\xamppp\htdocs\wordpress\wp-includes\customize\class-wp-customize-selective-refresh.php(371): WP_Customize_Partial->render(Array)
+#1 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): WP_Customize_Selective_Refresh->handle_render_partials_request('')
+#2 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xamppp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#4 C:\xamppp\htdocs\wordpress\wp-includes\template-loader.php(13): do_action('template_redire...')
+#5 C:\xamppp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xamppp\\htdoc...')
+#6 C:\xamppp\htdocs\wordpress\index.php(17): require('C:\\xamppp\\htdoc...')
+#7 {main}
+  thrown en C:\xamppp\htdocs\wordpress\wp-includes\customize\class-wp-customize-partial.php en la línea 221
+
+2021-01-11T19:08:52+00:00 CRITICAL Uncaught TypeError: call_user_func(): Argument #1 ($function) must be a valid callback, function "vw_fitness_gym_customize_partial_blogname" not found or invalid function name in C:\xamppp\htdocs\wordpress\wp-includes\customize\class-wp-customize-partial.php:221
+Stack trace:
+#0 C:\xamppp\htdocs\wordpress\wp-includes\customize\class-wp-customize-selective-refresh.php(371): WP_Customize_Partial->render(Array)
+#1 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): WP_Customize_Selective_Refresh->handle_render_partials_request('')
+#2 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xamppp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#4 C:\xamppp\htdocs\wordpress\wp-includes\template-loader.php(13): do_action('template_redire...')
+#5 C:\xamppp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xamppp\\htdoc...')
+#6 C:\xamppp\htdocs\wordpress\index.php(17): require('C:\\xamppp\\htdoc...')
+#7 {main}
+  thrown en C:\xamppp\htdocs\wordpress\wp-includes\customize\class-wp-customize-partial.php en la línea 221
+
+2021-01-11T19:09:02+00:00 CRITICAL Uncaught TypeError: call_user_func(): Argument #1 ($function) must be a valid callback, function "vw_fitness_gym_customize_partial_blogdescription" not found or invalid function name in C:\xamppp\htdocs\wordpress\wp-includes\customize\class-wp-customize-partial.php:221
+Stack trace:
+#0 C:\xamppp\htdocs\wordpress\wp-includes\customize\class-wp-customize-selective-refresh.php(371): WP_Customize_Partial->render(Array)
+#1 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): WP_Customize_Selective_Refresh->handle_render_partials_request('')
+#2 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xamppp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#4 C:\xamppp\htdocs\wordpress\wp-includes\template-loader.php(13): do_action('template_redire...')
+#5 C:\xamppp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xamppp\\htdoc...')
+#6 C:\xamppp\htdocs\wordpress\index.php(17): require('C:\\xamppp\\htdoc...')
+#7 {main}
+  thrown en C:\xamppp\htdocs\wordpress\wp-includes\customize\class-wp-customize-partial.php en la línea 221
+
+2021-01-11T19:09:03+00:00 CRITICAL Uncaught TypeError: call_user_func(): Argument #1 ($function) must be a valid callback, function "vw_fitness_gym_customize_partial_blogdescription" not found or invalid function name in C:\xamppp\htdocs\wordpress\wp-includes\customize\class-wp-customize-partial.php:221
+Stack trace:
+#0 C:\xamppp\htdocs\wordpress\wp-includes\customize\class-wp-customize-selective-refresh.php(371): WP_Customize_Partial->render(Array)
+#1 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): WP_Customize_Selective_Refresh->handle_render_partials_request('')
+#2 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xamppp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#4 C:\xamppp\htdocs\wordpress\wp-includes\template-loader.php(13): do_action('template_redire...')
+#5 C:\xamppp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xamppp\\htdoc...')
+#6 C:\xamppp\htdocs\wordpress\index.php(17): require('C:\\xamppp\\htdoc...')
+#7 {main}
+  thrown en C:\xamppp\htdocs\wordpress\wp-includes\customize\class-wp-customize-partial.php en la línea 221
+
+2021-01-11T19:09:04+00:00 CRITICAL Uncaught TypeError: call_user_func(): Argument #1 ($function) must be a valid callback, function "vw_fitness_gym_customize_partial_blogdescription" not found or invalid function name in C:\xamppp\htdocs\wordpress\wp-includes\customize\class-wp-customize-partial.php:221
+Stack trace:
+#0 C:\xamppp\htdocs\wordpress\wp-includes\customize\class-wp-customize-selective-refresh.php(371): WP_Customize_Partial->render(Array)
+#1 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): WP_Customize_Selective_Refresh->handle_render_partials_request('')
+#2 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xamppp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#4 C:\xamppp\htdocs\wordpress\wp-includes\template-loader.php(13): do_action('template_redire...')
+#5 C:\xamppp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xamppp\\htdoc...')
+#6 C:\xamppp\htdocs\wordpress\index.php(17): require('C:\\xamppp\\htdoc...')
+#7 {main}
+  thrown en C:\xamppp\htdocs\wordpress\wp-includes\customize\class-wp-customize-partial.php en la línea 221
+
+2021-01-11T19:09:05+00:00 CRITICAL Uncaught TypeError: call_user_func(): Argument #1 ($function) must be a valid callback, function "vw_fitness_gym_customize_partial_blogdescription" not found or invalid function name in C:\xamppp\htdocs\wordpress\wp-includes\customize\class-wp-customize-partial.php:221
+Stack trace:
+#0 C:\xamppp\htdocs\wordpress\wp-includes\customize\class-wp-customize-selective-refresh.php(371): WP_Customize_Partial->render(Array)
+#1 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): WP_Customize_Selective_Refresh->handle_render_partials_request('')
+#2 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xamppp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#4 C:\xamppp\htdocs\wordpress\wp-includes\template-loader.php(13): do_action('template_redire...')
+#5 C:\xamppp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xamppp\\htdoc...')
+#6 C:\xamppp\htdocs\wordpress\index.php(17): require('C:\\xamppp\\htdoc...')
+#7 {main}
+  thrown en C:\xamppp\htdocs\wordpress\wp-includes\customize\class-wp-customize-partial.php en la línea 221
+
+2021-01-11T19:09:05+00:00 CRITICAL Uncaught TypeError: call_user_func(): Argument #1 ($function) must be a valid callback, function "vw_fitness_gym_customize_partial_blogdescription" not found or invalid function name in C:\xamppp\htdocs\wordpress\wp-includes\customize\class-wp-customize-partial.php:221
+Stack trace:
+#0 C:\xamppp\htdocs\wordpress\wp-includes\customize\class-wp-customize-selective-refresh.php(371): WP_Customize_Partial->render(Array)
+#1 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): WP_Customize_Selective_Refresh->handle_render_partials_request('')
+#2 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xamppp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#4 C:\xamppp\htdocs\wordpress\wp-includes\template-loader.php(13): do_action('template_redire...')
+#5 C:\xamppp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xamppp\\htdoc...')
+#6 C:\xamppp\htdocs\wordpress\index.php(17): require('C:\\xamppp\\htdoc...')
+#7 {main}
+  thrown en C:\xamppp\htdocs\wordpress\wp-includes\customize\class-wp-customize-partial.php en la línea 221
+
+2021-01-11T19:09:06+00:00 CRITICAL Uncaught TypeError: call_user_func(): Argument #1 ($function) must be a valid callback, function "vw_fitness_gym_customize_partial_blogdescription" not found or invalid function name in C:\xamppp\htdocs\wordpress\wp-includes\customize\class-wp-customize-partial.php:221
+Stack trace:
+#0 C:\xamppp\htdocs\wordpress\wp-includes\customize\class-wp-customize-selective-refresh.php(371): WP_Customize_Partial->render(Array)
+#1 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): WP_Customize_Selective_Refresh->handle_render_partials_request('')
+#2 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xamppp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#4 C:\xamppp\htdocs\wordpress\wp-includes\template-loader.php(13): do_action('template_redire...')
+#5 C:\xamppp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xamppp\\htdoc...')
+#6 C:\xamppp\htdocs\wordpress\index.php(17): require('C:\\xamppp\\htdoc...')
+#7 {main}
+  thrown en C:\xamppp\htdocs\wordpress\wp-includes\customize\class-wp-customize-partial.php en la línea 221
+
+2021-01-11T19:09:07+00:00 CRITICAL Uncaught TypeError: call_user_func(): Argument #1 ($function) must be a valid callback, function "vw_fitness_gym_customize_partial_blogdescription" not found or invalid function name in C:\xamppp\htdocs\wordpress\wp-includes\customize\class-wp-customize-partial.php:221
+Stack trace:
+#0 C:\xamppp\htdocs\wordpress\wp-includes\customize\class-wp-customize-selective-refresh.php(371): WP_Customize_Partial->render(Array)
+#1 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): WP_Customize_Selective_Refresh->handle_render_partials_request('')
+#2 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xamppp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#4 C:\xamppp\htdocs\wordpress\wp-includes\template-loader.php(13): do_action('template_redire...')
+#5 C:\xamppp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xamppp\\htdoc...')
+#6 C:\xamppp\htdocs\wordpress\index.php(17): require('C:\\xamppp\\htdoc...')
+#7 {main}
+  thrown en C:\xamppp\htdocs\wordpress\wp-includes\customize\class-wp-customize-partial.php en la línea 221
+
+2021-01-11T19:09:10+00:00 CRITICAL Uncaught TypeError: call_user_func(): Argument #1 ($function) must be a valid callback, function "vw_fitness_gym_customize_partial_blogdescription" not found or invalid function name in C:\xamppp\htdocs\wordpress\wp-includes\customize\class-wp-customize-partial.php:221
+Stack trace:
+#0 C:\xamppp\htdocs\wordpress\wp-includes\customize\class-wp-customize-selective-refresh.php(371): WP_Customize_Partial->render(Array)
+#1 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): WP_Customize_Selective_Refresh->handle_render_partials_request('')
+#2 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xamppp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#4 C:\xamppp\htdocs\wordpress\wp-includes\template-loader.php(13): do_action('template_redire...')
+#5 C:\xamppp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xamppp\\htdoc...')
+#6 C:\xamppp\htdocs\wordpress\index.php(17): require('C:\\xamppp\\htdoc...')
+#7 {main}
+  thrown en C:\xamppp\htdocs\wordpress\wp-includes\customize\class-wp-customize-partial.php en la línea 221
+
+2021-01-11T19:09:11+00:00 CRITICAL Uncaught TypeError: call_user_func(): Argument #1 ($function) must be a valid callback, function "vw_fitness_gym_customize_partial_blogdescription" not found or invalid function name in C:\xamppp\htdocs\wordpress\wp-includes\customize\class-wp-customize-partial.php:221
+Stack trace:
+#0 C:\xamppp\htdocs\wordpress\wp-includes\customize\class-wp-customize-selective-refresh.php(371): WP_Customize_Partial->render(Array)
+#1 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): WP_Customize_Selective_Refresh->handle_render_partials_request('')
+#2 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xamppp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#4 C:\xamppp\htdocs\wordpress\wp-includes\template-loader.php(13): do_action('template_redire...')
+#5 C:\xamppp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xamppp\\htdoc...')
+#6 C:\xamppp\htdocs\wordpress\index.php(17): require('C:\\xamppp\\htdoc...')
+#7 {main}
+  thrown en C:\xamppp\htdocs\wordpress\wp-includes\customize\class-wp-customize-partial.php en la línea 221
+
+2021-01-11T19:12:00+00:00 CRITICAL Uncaught TypeError: call_user_func(): Argument #1 ($function) must be a valid callback, function "vw_fitness_gym_customize_partial_blogname" not found or invalid function name in C:\xamppp\htdocs\wordpress\wp-includes\customize\class-wp-customize-partial.php:221
+Stack trace:
+#0 C:\xamppp\htdocs\wordpress\wp-includes\customize\class-wp-customize-selective-refresh.php(371): WP_Customize_Partial->render(Array)
+#1 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): WP_Customize_Selective_Refresh->handle_render_partials_request('')
+#2 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xamppp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#4 C:\xamppp\htdocs\wordpress\wp-includes\template-loader.php(13): do_action('template_redire...')
+#5 C:\xamppp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xamppp\\htdoc...')
+#6 C:\xamppp\htdocs\wordpress\index.php(17): require('C:\\xamppp\\htdoc...')
+#7 {main}
+  thrown en C:\xamppp\htdocs\wordpress\wp-includes\customize\class-wp-customize-partial.php en la línea 221
+
+2021-01-11T19:12:05+00:00 CRITICAL Uncaught TypeError: call_user_func(): Argument #1 ($function) must be a valid callback, function "vw_fitness_gym_customize_partial_blogname" not found or invalid function name in C:\xamppp\htdocs\wordpress\wp-includes\customize\class-wp-customize-partial.php:221
+Stack trace:
+#0 C:\xamppp\htdocs\wordpress\wp-includes\customize\class-wp-customize-selective-refresh.php(371): WP_Customize_Partial->render(Array)
+#1 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): WP_Customize_Selective_Refresh->handle_render_partials_request('')
+#2 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xamppp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#4 C:\xamppp\htdocs\wordpress\wp-includes\template-loader.php(13): do_action('template_redire...')
+#5 C:\xamppp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xamppp\\htdoc...')
+#6 C:\xamppp\htdocs\wordpress\index.php(17): require('C:\\xamppp\\htdoc...')
+#7 {main}
+  thrown en C:\xamppp\htdocs\wordpress\wp-includes\customize\class-wp-customize-partial.php en la línea 221
+
+2021-01-11T19:12:05+00:00 CRITICAL Uncaught TypeError: call_user_func(): Argument #1 ($function) must be a valid callback, function "vw_fitness_gym_customize_partial_blogname" not found or invalid function name in C:\xamppp\htdocs\wordpress\wp-includes\customize\class-wp-customize-partial.php:221
+Stack trace:
+#0 C:\xamppp\htdocs\wordpress\wp-includes\customize\class-wp-customize-selective-refresh.php(371): WP_Customize_Partial->render(Array)
+#1 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): WP_Customize_Selective_Refresh->handle_render_partials_request('')
+#2 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xamppp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#4 C:\xamppp\htdocs\wordpress\wp-includes\template-loader.php(13): do_action('template_redire...')
+#5 C:\xamppp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xamppp\\htdoc...')
+#6 C:\xamppp\htdocs\wordpress\index.php(17): require('C:\\xamppp\\htdoc...')
+#7 {main}
+  thrown en C:\xamppp\htdocs\wordpress\wp-includes\customize\class-wp-customize-partial.php en la línea 221
+
+2021-01-11T19:12:06+00:00 CRITICAL Uncaught TypeError: call_user_func(): Argument #1 ($function) must be a valid callback, function "vw_fitness_gym_customize_partial_blogname" not found or invalid function name in C:\xamppp\htdocs\wordpress\wp-includes\customize\class-wp-customize-partial.php:221
+Stack trace:
+#0 C:\xamppp\htdocs\wordpress\wp-includes\customize\class-wp-customize-selective-refresh.php(371): WP_Customize_Partial->render(Array)
+#1 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): WP_Customize_Selective_Refresh->handle_render_partials_request('')
+#2 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xamppp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#4 C:\xamppp\htdocs\wordpress\wp-includes\template-loader.php(13): do_action('template_redire...')
+#5 C:\xamppp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xamppp\\htdoc...')
+#6 C:\xamppp\htdocs\wordpress\index.php(17): require('C:\\xamppp\\htdoc...')
+#7 {main}
+  thrown en C:\xamppp\htdocs\wordpress\wp-includes\customize\class-wp-customize-partial.php en la línea 221
+
+2021-01-11T19:12:18+00:00 CRITICAL Uncaught TypeError: call_user_func(): Argument #1 ($function) must be a valid callback, function "vw_fitness_gym_customize_partial_blogname" not found or invalid function name in C:\xamppp\htdocs\wordpress\wp-includes\customize\class-wp-customize-partial.php:221
+Stack trace:
+#0 C:\xamppp\htdocs\wordpress\wp-includes\customize\class-wp-customize-selective-refresh.php(371): WP_Customize_Partial->render(Array)
+#1 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): WP_Customize_Selective_Refresh->handle_render_partials_request('')
+#2 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xamppp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#4 C:\xamppp\htdocs\wordpress\wp-includes\template-loader.php(13): do_action('template_redire...')
+#5 C:\xamppp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xamppp\\htdoc...')
+#6 C:\xamppp\htdocs\wordpress\index.php(17): require('C:\\xamppp\\htdoc...')
+#7 {main}
+  thrown en C:\xamppp\htdocs\wordpress\wp-includes\customize\class-wp-customize-partial.php en la línea 221
+
+2021-01-11T19:12:19+00:00 CRITICAL Uncaught TypeError: call_user_func(): Argument #1 ($function) must be a valid callback, function "vw_fitness_gym_customize_partial_blogname" not found or invalid function name in C:\xamppp\htdocs\wordpress\wp-includes\customize\class-wp-customize-partial.php:221
+Stack trace:
+#0 C:\xamppp\htdocs\wordpress\wp-includes\customize\class-wp-customize-selective-refresh.php(371): WP_Customize_Partial->render(Array)
+#1 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): WP_Customize_Selective_Refresh->handle_render_partials_request('')
+#2 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xamppp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#4 C:\xamppp\htdocs\wordpress\wp-includes\template-loader.php(13): do_action('template_redire...')
+#5 C:\xamppp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xamppp\\htdoc...')
+#6 C:\xamppp\htdocs\wordpress\index.php(17): require('C:\\xamppp\\htdoc...')
+#7 {main}
+  thrown en C:\xamppp\htdocs\wordpress\wp-includes\customize\class-wp-customize-partial.php en la línea 221
+
+2021-01-11T19:59:57+00:00 CRITICAL Uncaught TypeError: call_user_func(): Argument #1 ($function) must be a valid callback, function "vw_fitness_gym_customize_partial_vw_fitness_gym_footer_text" not found or invalid function name in C:\xamppp\htdocs\wordpress\wp-includes\customize\class-wp-customize-partial.php:221
+Stack trace:
+#0 C:\xamppp\htdocs\wordpress\wp-includes\customize\class-wp-customize-selective-refresh.php(371): WP_Customize_Partial->render(Array)
+#1 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): WP_Customize_Selective_Refresh->handle_render_partials_request('')
+#2 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xamppp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#4 C:\xamppp\htdocs\wordpress\wp-includes\template-loader.php(13): do_action('template_redire...')
+#5 C:\xamppp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xamppp\\htdoc...')
+#6 C:\xamppp\htdocs\wordpress\index.php(17): require('C:\\xamppp\\htdoc...')
+#7 {main}
+  thrown en C:\xamppp\htdocs\wordpress\wp-includes\customize\class-wp-customize-partial.php en la línea 221
+
+2021-01-11T20:00:06+00:00 CRITICAL Uncaught TypeError: call_user_func(): Argument #1 ($function) must be a valid callback, function "vw_fitness_gym_customize_partial_vw_fitness_gym_footer_text" not found or invalid function name in C:\xamppp\htdocs\wordpress\wp-includes\customize\class-wp-customize-partial.php:221
+Stack trace:
+#0 C:\xamppp\htdocs\wordpress\wp-includes\customize\class-wp-customize-selective-refresh.php(371): WP_Customize_Partial->render(Array)
+#1 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): WP_Customize_Selective_Refresh->handle_render_partials_request('')
+#2 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xamppp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#4 C:\xamppp\htdocs\wordpress\wp-includes\template-loader.php(13): do_action('template_redire...')
+#5 C:\xamppp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xamppp\\htdoc...')
+#6 C:\xamppp\htdocs\wordpress\index.php(17): require('C:\\xamppp\\htdoc...')
+#7 {main}
+  thrown en C:\xamppp\htdocs\wordpress\wp-includes\customize\class-wp-customize-partial.php en la línea 221
+
+2021-01-11T20:31:25+00:00 CRITICAL Maximum execution time of 60 seconds exceeded en C:\xamppp\htdocs\wordpress\wp-admin\includes\class-wp-filesystem-direct.php en la línea 66
+

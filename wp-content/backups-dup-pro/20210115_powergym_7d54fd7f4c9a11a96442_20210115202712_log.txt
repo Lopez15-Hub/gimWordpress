@@ -1,0 +1,23 @@
+********************************************************************************
+DUPLICATOR PRO PACKAGE-LOG: 2021-01-15 20:29:12
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	3.8.9.1
+WORDPRESS:	5.6
+PHP INFO:	8.0.0 | SAPI: apache2handler
+SERVER:		Apache/2.4.46 (Win64) OpenSSL/1.1.1h PHP/8.0.0 
+ARCHITECTURE:	64-bit 
+CLIENT KICKOFF: off 
+PHP TIME LIMIT: [7200] not allowed 
+PHP MAX MEMORY: 4294967296 (512M default) 
+RUN TYPE:	Manual
+MEMORY STACK:	22MB
+ARCHIVE ENGINE: ZipArchive: multi-thread
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   PHP + CHUNKING (chunk size - 500 rows)
+
+TABLES: total: 127 | filtered:0 | create:127
+SCHEMA SIZE: [17055744]

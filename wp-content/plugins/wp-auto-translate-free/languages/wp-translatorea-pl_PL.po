@@ -1,0 +1,146 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Auto Translate\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-03-18 07:06+0000\n"
+"PO-Revision-Date: 2019-03-18 07:36+0000\n"
+"Last-Translator: Marcin\n"
+"Language-Team: Polish \n"
+"Language: pl\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# $url = 'https://euroalphabet.eu/free-website-translation';
+# $link = sprintf( wp_kses( __( 'Do you need a professional website translation? Check out <a href=\"https://euroalphabet.eu\" target=\"_blank\">our offer</a>.', 'wp-translatorea' ), array(  'a' => array( 'href' => array(), 'target' =>  '_blank' ) ) ), esc_url( $url ) );
+# echo $link;
+
+msgid "Do you need a professional website translation? Check out <a href=\"https://euroalphabet.eu\" target=\"_blank\">our offer</a>."
+msgstr "Potrzebujesz profesjonalnego tłumaczenia strony? Sprawdź <a href=\"https://euroalphabet.eu/tlumaczenie-stron-www/\" target=\"_blank\">naszą ofertę</a>."
+
+# 
+# <h1 class="wp-heading-inline"><?php esc_html_e( 'WP Auto Translate', 'wp-translatorea' ); ?></h1>
+# 
+
+msgid "WP Auto Translate"
+msgstr "WP Auto Translate"
+
+# <div id="message" class="notice notice-success is-dismissible">
+# <p><strong><?php esc_html_e( 'Settings saved.' ); ?></strong></p>
+# </div>
+
+msgid "Settings saved."
+msgstr "Ustawienia zostały zapisane."
+
+# <th scope="row">
+# <label for="wp_translatorea_position"><?php esc_html_e( 'Position', 'wp-translatorea' ); ?></label>
+# </th>
+
+msgid "Position"
+msgstr "Pozycja"
+
+# <select name="wp_translatorea[translatorea_position]">
+# <option value="left" <?php selected($settings['translatorea_position'], "left"); ?>><?php esc_html_e( 'left', 'wp-translatorea' ); ?></option>
+# <option value="right" <?php selected($settings['translatorea_position'], "right"); ?>><?php esc_html_e( 'right', 'wp-translatorea' ); ?></option>
+
+msgid "left"
+msgstr "po lewej"
+
+# <option value="left" <?php selected($settings['translatorea_position'], "left"); ?>><?php esc_html_e( 'left', 'wp-translatorea' ); ?></option>
+# <option value="right" <?php selected($settings['translatorea_position'], "right"); ?>><?php esc_html_e( 'right', 'wp-translatorea' ); ?></option>
+# </select>
+
+msgid "right"
+msgstr "po prawej"
+
+# <th scope="row">
+# <label for="wp_translatorea_engine"><?php esc_html_e( 'Engine', 'wp-translatorea' ); ?></label>
+# </th>
+
+msgid "Engine"
+msgstr "Silnik"
+
+# <select name="wp_translatorea[translatorea_engine]">
+# <option value="google" <?php selected($settings['translatorea_engine'], "google"); ?>><?php esc_html_e( 'Google Translate', 'wp-translatorea' ); ?></option>
+# <option value="bing" <?php selected($settings['translatorea_engine'], "bing"); ?>><?php esc_html_e( 'Microsoft Translator', 'wp-translatorea' ); ?></option>
+
+msgid "Google Translate"
+msgstr "Google Tłumacz"
+
+# <option value="google" <?php selected($settings['translatorea_engine'], "google"); ?>><?php esc_html_e( 'Google Translate', 'wp-translatorea' ); ?></option>
+# <option value="bing" <?php selected($settings['translatorea_engine'], "bing"); ?>><?php esc_html_e( 'Microsoft Translator', 'wp-translatorea' ); ?></option>
+# </select>
+
+msgid "Microsoft Translator"
+msgstr "Microsoft Translator"
+
+# <th scope="row">
+# <label for="wp_translatorea_default_lang"><?php esc_html_e( 'Default language', 'wp-translatorea' ); ?></label>
+# </th>
+
+msgid "Default language"
+msgstr "Domyślny język"
+
+# <select name="wp_translatorea[translatorea_default_lang]">
+# <option><?php esc_html_e( 'Select default', 'wp-translatorea' ); ?></option>
+# <?php foreach ($available_langs as $lang) {
+
+msgid "Select default"
+msgstr "Wybierz domyślny"
+
+# <th scope="row">
+# <label for="wp_translatorea_langs"><?php esc_html_e( 'Languages', 'wp-translatorea' ); ?></label>
+# </th>
+
+msgid "Languages"
+msgstr "Języki"
+
+# <th scope="row">
+# <label for="wp_translatorea_only_admin"><?php esc_html_e( 'Show only for admin?', 'wp-translatorea' ); ?></label>
+# </th>
+
+msgid "Show only for admin?"
+msgstr "Pokaż tylko adminowi?"
+
+# <select name="wp_translatorea[only_admin]">
+# <option value="no" <?php selected($settings['only_admin'], "no"); ?>><?php esc_html_e( 'no', 'wp-translatorea' ); ?></option>
+# <option value="yes" <?php selected($settings['only_admin'], "yes"); ?>><?php esc_html_e( 'yes', 'wp-translatorea' ); ?></option>
+
+msgid "no"
+msgstr "nie"
+
+# <option value="no" <?php selected($settings['only_admin'], "no"); ?>><?php esc_html_e( 'no', 'wp-translatorea' ); ?></option>
+# <option value="yes" <?php selected($settings['only_admin'], "yes"); ?>><?php esc_html_e( 'yes', 'wp-translatorea' ); ?></option>
+# </select>
+
+msgid "yes"
+msgstr "tak"
+
+# <th scope="row">
+# <label for="wp_translatorea_translatorea_link"><?php esc_html_e( 'Support us! Show author', 'wp-translatorea' ); ?></label>
+# </th>
+
+msgid "Support us! Show author"
+msgstr "Wesprzyj nas! Pokaż autora"
+
+msgid "pl"
+msgstr "Polski"
+
+msgid "en"
+msgstr "Angielski"
+
+msgid "de"
+msgstr "Niemiecki"
+
+msgid "fr"
+msgstr "Francuski"
+
+msgid "es"
+msgstr "Hiszpański"
+
+msgid "pt"
+msgstr "Portugalski"
+
+msgid "ru"
+msgstr "Rosyjski"

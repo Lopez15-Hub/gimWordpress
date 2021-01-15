@@ -1,0 +1,197 @@
+2021-01-12T19:51:48+00:00 CRITICAL Maximum execution time of 60 seconds exceeded en C:\xamppp\htdocs\wordpress\wp-includes\wp-db.php en la línea 2056
+
+2021-01-12T19:54:24+00:00 CRITICAL Maximum execution time of 60 seconds exceeded en C:\xamppp\htdocs\wordpress\wp-admin\includes\class-wp-filesystem-direct.php en la línea 82
+
+2021-01-12T20:08:55+00:00 CRITICAL Maximum execution time of 60 seconds exceeded en C:\xamppp\htdocs\wordpress\wp-content\plugins\gym-management\settings.php en la línea 53
+
+2021-01-12T20:08:55+00:00 CRITICAL Maximum execution time of 60 seconds exceeded en C:\xamppp\htdocs\wordpress\wp-content\plugins\gym-management\settings.php en la línea 53
+
+2021-01-12T20:08:55+00:00 CRITICAL Maximum execution time of 60 seconds exceeded en C:\xamppp\htdocs\wordpress\wp-content\plugins\gym-management\settings.php en la línea 53
+
+2021-01-12T20:08:55+00:00 CRITICAL Maximum execution time of 60 seconds exceeded en C:\xamppp\htdocs\wordpress\wp-content\plugins\gym-management\settings.php en la línea 53
+
+2021-01-12T20:08:55+00:00 CRITICAL Maximum execution time of 60 seconds exceeded en C:\xamppp\htdocs\wordpress\wp-content\plugins\gym-management\settings.php en la línea 53
+
+2021-01-12T20:38:39+00:00 CRITICAL Maximum execution time of 60 seconds exceeded en C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce-mercadopago\includes\module\sdk\lib\RestClient\AbstractRestClient.php en la línea 130
+
+2021-01-12T20:40:20+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, array given in C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce-mercadopago\includes\module\WC_WooMercadoPago_Module.php:508
+Stack trace:
+#0 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce-mercadopago\includes\module\WC_WooMercadoPago_Module.php(508): method_exists(Array, 'get_meta')
+#1 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce-mercadopago\includes\payments\WC_WooMercadoPago_PaymentAbstract.php(1289): WC_WooMercadoPago_Module::is_subscription(Array)
+#2 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce-mercadopago\includes\payments\WC_WooMercadoPago_BasicGateway.php(189): WC_WooMercadoPago_PaymentAbstract->is_available()
+#3 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-payment-gateways.php(151): WC_WooMercadoPago_BasicGateway->is_available()
+#4 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce-gateway-stripe\includes\payment-methods\class-wc-stripe-payment-request.php(572): WC_Payment_Gateways->get_available_payment_gateways()
+#5 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): WC_Stripe_Payment_Request->display_payment_request_button_html('')
+#6 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#7 C:\xamppp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#8 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\templates\single-product\add-to-cart\variation-add-to-cart-button.php(28): do_action('woocommerce_aft...')
+#9 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xamppp\\htdoc...')
+#10 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-template-functions.php(2976): wc_get_template('single-product/...')
+#11 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): woocommerce_single_variation_add_to_cart_button('')
+#12 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#13 C:\xamppp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\templates\single-product\add-to-cart\variable.php(70): do_action('woocommerce_sin...')
+#15 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xamppp\\htdoc...')
+#16 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1670): wc_get_template('single-product/...', Array)
+#17 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): woocommerce_variable_add_to_cart('')
+#18 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#19 C:\xamppp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#20 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1616): do_action('woocommerce_var...')
+#21 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): woocommerce_template_single_add_to_cart('')
+#22 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#23 C:\xamppp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#24 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\templates\content-single-product.php(60): do_action('woocommerce_sin...')
+#25 C:\xamppp\htdocs\wordpress\wp-includes\template.php(732): require('C:\\xamppp\\htdoc...')
+#26 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xamppp\\htdoc...', false)
+#27 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\templates\single-product.php(37): wc_get_template_part('content', 'single-product')
+#28 C:\xamppp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xamppp\\htdoc...')
+#29 C:\xamppp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xamppp\\htdoc...')
+#30 C:\xamppp\htdocs\wordpress\index.php(17): require('C:\\xamppp\\htdoc...')
+#31 {main}
+  thrown en C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce-mercadopago\includes\module\WC_WooMercadoPago_Module.php en la línea 508
+
+2021-01-12T20:44:19+00:00 CRITICAL Maximum execution time of 60 seconds exceeded en C:\xamppp\htdocs\wordpress\wp-includes\wp-db.php en la línea 2056
+
+2021-01-12T20:44:19+00:00 CRITICAL Maximum execution time of 60 seconds exceeded en C:\xamppp\htdocs\wordpress\wp-content\plugins\gym-management\settings.php en la línea 53
+
+2021-01-12T20:44:19+00:00 CRITICAL Maximum execution time of 60 seconds exceeded en C:\xamppp\htdocs\wordpress\wp-content\plugins\gym-management\settings.php en la línea 53
+
+2021-01-12T20:49:11+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, array given in C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce-mercadopago\includes\module\WC_WooMercadoPago_Module.php:508
+Stack trace:
+#0 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce-mercadopago\includes\module\WC_WooMercadoPago_Module.php(508): method_exists(Array, 'get_meta')
+#1 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce-mercadopago\includes\payments\WC_WooMercadoPago_PaymentAbstract.php(1289): WC_WooMercadoPago_Module::is_subscription(Array)
+#2 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce-mercadopago\includes\payments\WC_WooMercadoPago_BasicGateway.php(189): WC_WooMercadoPago_PaymentAbstract->is_available()
+#3 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-payment-gateways.php(151): WC_WooMercadoPago_BasicGateway->is_available()
+#4 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce-gateway-stripe\includes\payment-methods\class-wc-stripe-payment-request.php(572): WC_Payment_Gateways->get_available_payment_gateways()
+#5 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): WC_Stripe_Payment_Request->display_payment_request_button_html('')
+#6 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#7 C:\xamppp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#8 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\templates\single-product\add-to-cart\variation-add-to-cart-button.php(28): do_action('woocommerce_aft...')
+#9 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xamppp\\htdoc...')
+#10 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-template-functions.php(2976): wc_get_template('single-product/...')
+#11 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): woocommerce_single_variation_add_to_cart_button('')
+#12 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#13 C:\xamppp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\templates\single-product\add-to-cart\variable.php(70): do_action('woocommerce_sin...')
+#15 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xamppp\\htdoc...')
+#16 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1670): wc_get_template('single-product/...', Array)
+#17 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): woocommerce_variable_add_to_cart('')
+#18 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#19 C:\xamppp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#20 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1616): do_action('woocommerce_var...')
+#21 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): woocommerce_template_single_add_to_cart('')
+#22 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#23 C:\xamppp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#24 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\templates\content-single-product.php(60): do_action('woocommerce_sin...')
+#25 C:\xamppp\htdocs\wordpress\wp-includes\template.php(732): require('C:\\xamppp\\htdoc...')
+#26 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xamppp\\htdoc...', false)
+#27 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\templates\single-product.php(37): wc_get_template_part('content', 'single-product')
+#28 C:\xamppp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xamppp\\htdoc...')
+#29 C:\xamppp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xamppp\\htdoc...')
+#30 C:\xamppp\htdocs\wordpress\index.php(17): require('C:\\xamppp\\htdoc...')
+#31 {main}
+  thrown en C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce-mercadopago\includes\module\WC_WooMercadoPago_Module.php en la línea 508
+
+2021-01-12T20:49:26+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, array given in C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce-mercadopago\includes\module\WC_WooMercadoPago_Module.php:508
+Stack trace:
+#0 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce-mercadopago\includes\module\WC_WooMercadoPago_Module.php(508): method_exists(Array, 'get_meta')
+#1 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce-mercadopago\includes\payments\WC_WooMercadoPago_PaymentAbstract.php(1289): WC_WooMercadoPago_Module::is_subscription(Array)
+#2 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce-mercadopago\includes\payments\WC_WooMercadoPago_BasicGateway.php(189): WC_WooMercadoPago_PaymentAbstract->is_available()
+#3 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-payment-gateways.php(151): WC_WooMercadoPago_BasicGateway->is_available()
+#4 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce-gateway-stripe\includes\payment-methods\class-wc-stripe-payment-request.php(572): WC_Payment_Gateways->get_available_payment_gateways()
+#5 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): WC_Stripe_Payment_Request->display_payment_request_button_html('')
+#6 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#7 C:\xamppp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#8 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\templates\single-product\add-to-cart\variation-add-to-cart-button.php(28): do_action('woocommerce_aft...')
+#9 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xamppp\\htdoc...')
+#10 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-template-functions.php(2976): wc_get_template('single-product/...')
+#11 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): woocommerce_single_variation_add_to_cart_button('')
+#12 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#13 C:\xamppp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\templates\single-product\add-to-cart\variable.php(70): do_action('woocommerce_sin...')
+#15 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xamppp\\htdoc...')
+#16 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1670): wc_get_template('single-product/...', Array)
+#17 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): woocommerce_variable_add_to_cart('')
+#18 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#19 C:\xamppp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#20 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1616): do_action('woocommerce_var...')
+#21 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): woocommerce_template_single_add_to_cart('')
+#22 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#23 C:\xamppp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#24 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\templates\content-single-product.php(60): do_action('woocommerce_sin...')
+#25 C:\xamppp\htdocs\wordpress\wp-includes\template.php(732): require('C:\\xamppp\\htdoc...')
+#26 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xamppp\\htdoc...', false)
+#27 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\templates\single-product.php(37): wc_get_template_part('content', 'single-product')
+#28 C:\xamppp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xamppp\\htdoc...')
+#29 C:\xamppp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xamppp\\htdoc...')
+#30 C:\xamppp\htdocs\wordpress\index.php(17): require('C:\\xamppp\\htdoc...')
+#31 {main}
+  thrown en C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce-mercadopago\includes\module\WC_WooMercadoPago_Module.php en la línea 508
+
+2021-01-12T20:49:33+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, array given in C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce-mercadopago\includes\module\WC_WooMercadoPago_Module.php:508
+Stack trace:
+#0 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce-mercadopago\includes\module\WC_WooMercadoPago_Module.php(508): method_exists(Array, 'get_meta')
+#1 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce-mercadopago\includes\payments\WC_WooMercadoPago_PaymentAbstract.php(1289): WC_WooMercadoPago_Module::is_subscription(Array)
+#2 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce-mercadopago\includes\payments\WC_WooMercadoPago_BasicGateway.php(189): WC_WooMercadoPago_PaymentAbstract->is_available()
+#3 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-payment-gateways.php(151): WC_WooMercadoPago_BasicGateway->is_available()
+#4 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce-gateway-stripe\includes\payment-methods\class-wc-stripe-payment-request.php(572): WC_Payment_Gateways->get_available_payment_gateways()
+#5 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): WC_Stripe_Payment_Request->display_payment_request_button_html('')
+#6 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#7 C:\xamppp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#8 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\templates\single-product\add-to-cart\simple.php(46): do_action('woocommerce_aft...')
+#9 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xamppp\\htdoc...')
+#10 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1625): wc_get_template('single-product/...')
+#11 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): woocommerce_simple_add_to_cart('')
+#12 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#13 C:\xamppp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1616): do_action('woocommerce_sim...')
+#15 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): woocommerce_template_single_add_to_cart('')
+#16 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#17 C:\xamppp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#18 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\templates\content-single-product.php(60): do_action('woocommerce_sin...')
+#19 C:\xamppp\htdocs\wordpress\wp-includes\template.php(732): require('C:\\xamppp\\htdoc...')
+#20 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xamppp\\htdoc...', false)
+#21 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\templates\single-product.php(37): wc_get_template_part('content', 'single-product')
+#22 C:\xamppp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xamppp\\htdoc...')
+#23 C:\xamppp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xamppp\\htdoc...')
+#24 C:\xamppp\htdocs\wordpress\index.php(17): require('C:\\xamppp\\htdoc...')
+#25 {main}
+  thrown en C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce-mercadopago\includes\module\WC_WooMercadoPago_Module.php en la línea 508
+
+2021-01-12T20:57:01+00:00 CRITICAL Maximum execution time of 60 seconds exceeded en C:\xamppp\htdocs\wordpress\wp-admin\includes\class-core-upgrader.php en la línea 412
+
+2021-01-12T20:57:06+00:00 CRITICAL Maximum execution time of 60 seconds exceeded en C:\xamppp\htdocs\wordpress\wp-admin\includes\class-core-upgrader.php en la línea 412
+
+2021-01-12T21:07:54+00:00 CRITICAL Maximum execution time of 60 seconds exceeded en C:\xamppp\htdocs\wordpress\wp-includes\Requests\Transport\cURL.php en la línea 463
+
+2021-01-12T21:09:39+00:00 CRITICAL Maximum execution time of 60 seconds exceeded en C:\xamppp\htdocs\wordpress\wp-includes\Requests\Transport\cURL.php en la línea 163
+
+2021-01-12T22:19:02+00:00 CRITICAL Maximum execution time of 60 seconds exceeded en C:\xamppp\htdocs\wordpress\wp-includes\blocks.php en la línea 190
+
+2021-01-12T22:31:00+00:00 CRITICAL Maximum execution time of 60 seconds exceeded en C:\xamppp\htdocs\wordpress\wp-includes\wp-db.php en la línea 2056
+
+2021-01-12T22:31:44+00:00 CRITICAL Maximum execution time of 60 seconds exceeded en C:\xamppp\htdocs\wordpress\wp-includes\wp-db.php en la línea 2056
+
+2021-01-12T22:31:50+00:00 CRITICAL Maximum execution time of 60 seconds exceeded en C:\xamppp\htdocs\wordpress\wp-includes\wp-db.php en la línea 2056
+
+2021-01-12T22:32:19+00:00 CRITICAL Maximum execution time of 60 seconds exceeded en C:\xamppp\htdocs\wordpress\wp-includes\wp-db.php en la línea 2056
+
+2021-01-12T22:32:51+00:00 CRITICAL Maximum execution time of 60 seconds exceeded en C:\xamppp\htdocs\wordpress\wp-includes\wp-db.php en la línea 2056
+
+2021-01-12T22:33:43+00:00 CRITICAL Maximum execution time of 60 seconds exceeded en C:\xamppp\htdocs\wordpress\wp-includes\wp-db.php en la línea 2056
+
+2021-01-12T22:40:16+00:00 CRITICAL syntax error, unexpected token "<" en C:\xamppp\htdocs\wordpress\wp-content\plugins\code-snippets\php\admin-menus\class-edit-menu.php(213) : eval()'d code en la línea 4
+
+2021-01-12T22:44:34+00:00 CRITICAL Uncaught Error: Undefined constant "woocommerce_single_product_summary" in C:\xamppp\htdocs\wordpress\wp-content\plugins\code-snippets\php\admin-menus\class-edit-menu.php(213) : eval()'d code:1
+Stack trace:
+#0 C:\xamppp\htdocs\wordpress\wp-content\plugins\code-snippets\php\admin-menus\class-edit-menu.php(213): eval()
+#1 C:\xamppp\htdocs\wordpress\wp-content\plugins\code-snippets\php\admin-menus\class-edit-menu.php(263): Code_Snippets_Edit_Menu->test_code(Object(Code_Snippet))
+#2 C:\xamppp\htdocs\wordpress\wp-content\plugins\code-snippets\php\admin-menus\class-edit-menu.php(122): Code_Snippets_Edit_Menu->save_posted_snippet()
+#3 C:\xamppp\htdocs\wordpress\wp-content\plugins\code-snippets\php\admin-menus\class-edit-menu.php(99): Code_Snippets_Edit_Menu->process_actions()
+#4 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): Code_Snippets_Edit_Menu->load('')
+#5 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#6 C:\xamppp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#7 C:\xamppp\htdocs\wordpress\wp-admin\admin.php(237): do_action('load-snippets_p...')
+#8 {main}
+  thrown en C:\xamppp\htdocs\wordpress\wp-content\plugins\code-snippets\php\admin-menus\class-edit-menu.php(213) : eval()'d code en la línea 1
+

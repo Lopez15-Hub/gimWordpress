@@ -1,0 +1,218 @@
+2020-12-29T18:18:21+00:00 CRITICAL Maximum execution time of 60 seconds exceeded en C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\CategoryLookup.php en la línea 8
+
+2020-12-29T18:23:10+00:00 CRITICAL Maximum execution time of 60 seconds exceeded en C:\xamppp\htdocs\wordpress\wp-includes\block-patterns\large-header-button.php en la línea 9
+
+2020-12-29T18:29:37+00:00 CRITICAL Maximum execution time of 60 seconds exceeded en C:\xamppp\htdocs\wordpress\wp-admin\includes\class-wp-filesystem-direct.php en la línea 66
+
+2020-12-29T18:37:34+00:00 CRITICAL syntax error, unexpected variable "$product", expecting "," or ";" en C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\templates\single-product\price.php en la línea 32
+
+2020-12-29T18:41:50+00:00 CRITICAL syntax error, unexpected token ")" en C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\templates\single-product\price.php en la línea 27
+
+2020-12-29T19:07:10+00:00 CRITICAL Unmatched ')' en C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\templates\single-product\price.php en la línea 30
+
+2020-12-29T19:07:40+00:00 CRITICAL Unmatched ')' en C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\templates\single-product\price.php en la línea 30
+
+2020-12-29T19:07:51+00:00 CRITICAL Unmatched ')' en C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\templates\single-product\price.php en la línea 30
+
+2020-12-29T19:10:23+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Variable::get_regular_price_html() in C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\templates\single-product\price.php:27
+Stack trace:
+#0 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1569): wc_get_template('single-product/...')
+#2 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): woocommerce_template_single_price('')
+#3 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#4 C:\xamppp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#5 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\templates\content-single-product.php(60): do_action('woocommerce_sin...')
+#6 C:\xamppp\htdocs\wordpress\wp-includes\template.php(732): require('C:\\xamppp\\htdoc...')
+#7 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xamppp\\htdoc...', false)
+#8 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\templates\single-product.php(37): wc_get_template_part('content', 'single-product')
+#9 C:\xamppp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xamppp\\htdoc...')
+#10 C:\xamppp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xamppp\\htdoc...')
+#11 C:\xamppp\htdocs\wordpress\index.php(17): require('C:\\xamppp\\htdoc...')
+#12 {main}
+  thrown en C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\templates\single-product\price.php en la línea 27
+
+2020-12-29T19:25:23+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Variable::get_price_min() in C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\templates\single-product\price.php:27
+Stack trace:
+#0 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1569): wc_get_template('single-product/...')
+#2 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): woocommerce_template_single_price('')
+#3 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#4 C:\xamppp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#5 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\templates\content-single-product.php(60): do_action('woocommerce_sin...')
+#6 C:\xamppp\htdocs\wordpress\wp-includes\template.php(732): require('C:\\xamppp\\htdoc...')
+#7 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xamppp\\htdoc...', false)
+#8 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\templates\single-product.php(37): wc_get_template_part('content', 'single-product')
+#9 C:\xamppp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xamppp\\htdoc...')
+#10 C:\xamppp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xamppp\\htdoc...')
+#11 C:\xamppp\htdocs\wordpress\index.php(17): require('C:\\xamppp\\htdoc...')
+#12 {main}
+  thrown en C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\templates\single-product\price.php en la línea 27
+
+2020-12-29T19:26:14+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Variable::get_price_min() in C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\templates\single-product\price.php:27
+Stack trace:
+#0 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1569): wc_get_template('single-product/...')
+#2 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): woocommerce_template_single_price('')
+#3 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#4 C:\xamppp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#5 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\templates\content-single-product.php(60): do_action('woocommerce_sin...')
+#6 C:\xamppp\htdocs\wordpress\wp-includes\template.php(732): require('C:\\xamppp\\htdoc...')
+#7 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xamppp\\htdoc...', false)
+#8 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\templates\single-product.php(37): wc_get_template_part('content', 'single-product')
+#9 C:\xamppp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xamppp\\htdoc...')
+#10 C:\xamppp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xamppp\\htdoc...')
+#11 C:\xamppp\htdocs\wordpress\index.php(17): require('C:\\xamppp\\htdoc...')
+#12 {main}
+  thrown en C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\templates\single-product\price.php en la línea 27
+
+2020-12-29T19:26:22+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Variable::get_min_price() in C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\templates\single-product\price.php:27
+Stack trace:
+#0 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1569): wc_get_template('single-product/...')
+#2 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): woocommerce_template_single_price('')
+#3 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#4 C:\xamppp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#5 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\templates\content-single-product.php(60): do_action('woocommerce_sin...')
+#6 C:\xamppp\htdocs\wordpress\wp-includes\template.php(732): require('C:\\xamppp\\htdoc...')
+#7 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xamppp\\htdoc...', false)
+#8 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\templates\single-product.php(37): wc_get_template_part('content', 'single-product')
+#9 C:\xamppp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xamppp\\htdoc...')
+#10 C:\xamppp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xamppp\\htdoc...')
+#11 C:\xamppp\htdocs\wordpress\index.php(17): require('C:\\xamppp\\htdoc...')
+#12 {main}
+  thrown en C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\templates\single-product\price.php en la línea 27
+
+2020-12-29T19:26:37+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Variable::get_price_min() in C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\templates\single-product\price.php:27
+Stack trace:
+#0 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1569): wc_get_template('single-product/...')
+#2 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): woocommerce_template_single_price('')
+#3 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#4 C:\xamppp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#5 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\templates\content-single-product.php(60): do_action('woocommerce_sin...')
+#6 C:\xamppp\htdocs\wordpress\wp-includes\template.php(732): require('C:\\xamppp\\htdoc...')
+#7 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xamppp\\htdoc...', false)
+#8 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\templates\single-product.php(37): wc_get_template_part('content', 'single-product')
+#9 C:\xamppp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xamppp\\htdoc...')
+#10 C:\xamppp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xamppp\\htdoc...')
+#11 C:\xamppp\htdocs\wordpress\index.php(17): require('C:\\xamppp\\htdoc...')
+#12 {main}
+  thrown en C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\templates\single-product\price.php en la línea 27
+
+2020-12-29T19:26:40+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Variable::get_price_min() in C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\templates\single-product\price.php:27
+Stack trace:
+#0 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1569): wc_get_template('single-product/...')
+#2 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): woocommerce_template_single_price('')
+#3 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#4 C:\xamppp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#5 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\templates\content-single-product.php(60): do_action('woocommerce_sin...')
+#6 C:\xamppp\htdocs\wordpress\wp-includes\template.php(732): require('C:\\xamppp\\htdoc...')
+#7 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xamppp\\htdoc...', false)
+#8 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\templates\single-product.php(37): wc_get_template_part('content', 'single-product')
+#9 C:\xamppp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xamppp\\htdoc...')
+#10 C:\xamppp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xamppp\\htdoc...')
+#11 C:\xamppp\htdocs\wordpress\index.php(17): require('C:\\xamppp\\htdoc...')
+#12 {main}
+  thrown en C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\templates\single-product\price.php en la línea 27
+
+2020-12-29T19:28:06+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Variable::get_price_min() in C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\templates\single-product\price.php:27
+Stack trace:
+#0 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1569): wc_get_template('single-product/...')
+#2 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): woocommerce_template_single_price('')
+#3 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#4 C:\xamppp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#5 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\templates\content-single-product.php(60): do_action('woocommerce_sin...')
+#6 C:\xamppp\htdocs\wordpress\wp-includes\template.php(732): require('C:\\xamppp\\htdoc...')
+#7 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xamppp\\htdoc...', false)
+#8 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\templates\single-product.php(37): wc_get_template_part('content', 'single-product')
+#9 C:\xamppp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xamppp\\htdoc...')
+#10 C:\xamppp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xamppp\\htdoc...')
+#11 C:\xamppp\htdocs\wordpress\index.php(17): require('C:\\xamppp\\htdoc...')
+#12 {main}
+  thrown en C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\templates\single-product\price.php en la línea 27
+
+2020-12-29T19:28:55+00:00 CRITICAL Uncaught Error: Call to undefined function get_min_price() in C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\templates\single-product\price.php:30
+Stack trace:
+#0 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1569): wc_get_template('single-product/...')
+#2 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): woocommerce_template_single_price('')
+#3 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#4 C:\xamppp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#5 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\templates\content-single-product.php(60): do_action('woocommerce_sin...')
+#6 C:\xamppp\htdocs\wordpress\wp-includes\template.php(732): require('C:\\xamppp\\htdoc...')
+#7 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xamppp\\htdoc...', false)
+#8 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\templates\single-product.php(37): wc_get_template_part('content', 'single-product')
+#9 C:\xamppp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xamppp\\htdoc...')
+#10 C:\xamppp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xamppp\\htdoc...')
+#11 C:\xamppp\htdocs\wordpress\index.php(17): require('C:\\xamppp\\htdoc...')
+#12 {main}
+  thrown en C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\templates\single-product\price.php en la línea 30
+
+2020-12-29T19:29:31+00:00 CRITICAL Uncaught Error: Call to undefined function get_price_min_html() in C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\templates\single-product\price.php:27
+Stack trace:
+#0 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1569): wc_get_template('single-product/...')
+#2 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): woocommerce_template_single_price('')
+#3 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#4 C:\xamppp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#5 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\templates\content-single-product.php(60): do_action('woocommerce_sin...')
+#6 C:\xamppp\htdocs\wordpress\wp-includes\template.php(732): require('C:\\xamppp\\htdoc...')
+#7 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xamppp\\htdoc...', false)
+#8 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\templates\single-product.php(37): wc_get_template_part('content', 'single-product')
+#9 C:\xamppp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xamppp\\htdoc...')
+#10 C:\xamppp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xamppp\\htdoc...')
+#11 C:\xamppp\htdocs\wordpress\index.php(17): require('C:\\xamppp\\htdoc...')
+#12 {main}
+  thrown en C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\templates\single-product\price.php en la línea 27
+
+2020-12-29T19:29:37+00:00 CRITICAL Uncaught Error: Call to undefined function get_price_min() in C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\templates\single-product\price.php:27
+Stack trace:
+#0 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1569): wc_get_template('single-product/...')
+#2 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): woocommerce_template_single_price('')
+#3 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#4 C:\xamppp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#5 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\templates\content-single-product.php(60): do_action('woocommerce_sin...')
+#6 C:\xamppp\htdocs\wordpress\wp-includes\template.php(732): require('C:\\xamppp\\htdoc...')
+#7 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xamppp\\htdoc...', false)
+#8 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\templates\single-product.php(37): wc_get_template_part('content', 'single-product')
+#9 C:\xamppp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xamppp\\htdoc...')
+#10 C:\xamppp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xamppp\\htdoc...')
+#11 C:\xamppp\htdocs\wordpress\index.php(17): require('C:\\xamppp\\htdoc...')
+#12 {main}
+  thrown en C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\templates\single-product\price.php en la línea 27
+
+2020-12-29T19:30:03+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Variable::get_price_min() in C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\templates\single-product\price.php:27
+Stack trace:
+#0 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1569): wc_get_template('single-product/...')
+#2 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): woocommerce_template_single_price('')
+#3 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#4 C:\xamppp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#5 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\templates\content-single-product.php(60): do_action('woocommerce_sin...')
+#6 C:\xamppp\htdocs\wordpress\wp-includes\template.php(732): require('C:\\xamppp\\htdoc...')
+#7 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xamppp\\htdoc...', false)
+#8 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\templates\single-product.php(37): wc_get_template_part('content', 'single-product')
+#9 C:\xamppp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xamppp\\htdoc...')
+#10 C:\xamppp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xamppp\\htdoc...')
+#11 C:\xamppp\htdocs\wordpress\index.php(17): require('C:\\xamppp\\htdoc...')
+#12 {main}
+  thrown en C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\templates\single-product\price.php en la línea 27
+
+2020-12-29T19:57:08+00:00 CRITICAL syntax error, unexpected token "}", expecting "," or ";" en C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\templates\single-product\title.php en la línea 26
+
+2020-12-29T19:57:19+00:00 CRITICAL syntax error, unexpected token "}", expecting "," or ";" en C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\templates\single-product\title.php en la línea 26
+
+2020-12-29T20:02:40+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function remove_action(), 1 passed in C:\xamppp\htdocs\wordpress\wp-content\themes\storefront-child\functions.php on line 7 and at least 2 expected in C:\xamppp\htdocs\wordpress\wp-includes\plugin.php:590
+Stack trace:
+#0 C:\xamppp\htdocs\wordpress\wp-content\themes\storefront-child\functions.php(7): remove_action('the_title')
+#1 C:\xamppp\htdocs\wordpress\wp-settings.php(525): include('C:\\xamppp\\htdoc...')
+#2 C:\xamppp\htdocs\wordpress\wp-config.php(92): require_once('C:\\xamppp\\htdoc...')
+#3 C:\xamppp\htdocs\wordpress\wp-load.php(37): require_once('C:\\xamppp\\htdoc...')
+#4 C:\xamppp\htdocs\wordpress\wp-blog-header.php(13): require_once('C:\\xamppp\\htdoc...')
+#5 C:\xamppp\htdocs\wordpress\index.php(17): require('C:\\xamppp\\htdoc...')
+#6 {main}
+  thrown en C:\xamppp\htdocs\wordpress\wp-includes\plugin.php en la línea 590
+

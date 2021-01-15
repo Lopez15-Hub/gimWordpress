@@ -1,0 +1,157 @@
+/*
+Name: bootstrap-smartmenus.css
+*/
+
+/*Navbar Classic Header*/
+.classic-header {
+	position: absolute;
+    right: 0;
+    left: 0;
+    z-index: 2;
+}
+.classic-header .site-header {
+    padding-top: 0.938rem;
+    padding-bottom: 1.25rem;
+}
+.classic-header .site-header ~ .navbar-header-wrap {
+    margin-top: 0;
+}
+.classic-header .navbar-header-wrap .row {
+    background-color: rgba(255, 255, 255, 1);
+	box-shadow: 0 4px 7px 0 rgba(0, 0, 0, 0.12), 0 3px 12px 0 rgba(0, 0, 0, 0.12);
+	padding-left: 20px;
+    padding-right: 20px;
+}
+.classic-header .navbar-header-wrap {
+    background-color: transparent;
+}
+.classic-header .navbar-header-wrap.header-fixed-top .row {
+    box-shadow: none;
+	padding-left: 0;
+    padding-right: 0;
+}
+.classic-header .navbar.header-fixed-top .site-branding-text {
+	padding-top: 0.670rem;
+    padding-bottom: 0.670rem;
+}
+.classic-header .navbar.navbar-header-wrap .site-branding-text .site-title a {
+    color: #000;
+}
+.classic-header .navbar.navbar-header-wrap .site-branding-text .site-description {
+    color: #404040;
+}
+.classic-header .navbar.navbar-header-wrap .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(1, 1, 47, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+.classic-header .navbar.navbar-header-wrap .nav .menu-item .nav-link, 
+.classic-header .navbar.navbar-header-wrap .nav a.cart-icon, 
+.classic-header .navbar.navbar-header-wrap .nav .theme-search-block a {
+    color: #000;
+}
+.classic-header .navbar-header-wrap.header-fixed-top .nav .menu-item .nav-link {
+    padding: 1.400rem 1rem;
+}
+.classic-header .navbar.navbar-header-wrap .nav .menu-item .nav-link.add-menu {
+	margin: 0;
+}
+.classic-header .navbar.navbar-header-wrap.header-fixed-top .nav .menu-item .nav-link.add-menu {
+	padding: 0.313rem 1.3rem;
+	margin: 0;
+}
+.classic-header ~ .theme-page-header-area {
+	padding-top: 13.5rem;
+	padding-bottom: 6.75rem;
+}
+.header-fixed-top, .classic-header .navbar-header-wrap.header-fixed-top .row {
+    background-color: #ffffff !important;
+}
+
+/*Toggle Button*/
+.navbar-toggler:focus, 
+.classic-header .navbar-header-wrap.header-fixed-top .navbar-toggler:focus {
+	outline: 1px dotted #000;
+} 
+
+@media (max-width: 992px) {
+	#wrapper .classic-header ~ .theme-page-header-area {
+		padding-top: 9.375rem;
+		padding-bottom: 3.9375rem;
+	}
+	.classic-page-header ~ .theme-page-header-area {
+		padding-top: 14.375rem !important;
+	}
+}
+@media (max-width: 768px) {
+	#wrapper .classic-header ~ .theme-page-header-area {
+		padding-top: 10.4375rem;
+		padding-bottom: 4.1rem;
+	}
+	.classic-page-header ~ .theme-page-header-area {
+		padding-top: 18.275rem !important;
+	}
+}
+@media (max-width: 500px) {
+	.classic-page-header ~ .theme-page-header-area {
+		padding-top: 20.275rem !important;
+	}
+}
+/*End*/
+
+@media (max-width: 991px) {
+	/*Navbar Classic Header*/
+	.classic-header .site-header {
+		padding-bottom: 0;
+	}
+	.classic-header .navbar-header-wrap .container-full .row {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.classic-header .navbar-header-wrap .row {
+		padding-left: 15px;
+		padding-right: 15px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	.classic-header .navbar.header-fixed-top .site-branding-text {
+		padding-top: 0.175rem;
+		padding-bottom: 0.175rem;
+	}
+	.classic-header .navbar.navbar-header-wrap.header-fixed-top .navbar-toggler {
+		margin-top: 0;
+	}	
+	.classic-header .navbar.navbar-header-wrap .nav {
+		margin-bottom: 0;
+	}	
+	/*End*/
+}
+
+@media (min-width: 992px) {
+	/*Navbar Classic Header*/
+	.classic-header .navbar-header-wrap {
+		margin-top: 1.875rem;
+	}
+	.classic-header .navbar-header-wrap .navbar-brand {
+		padding-top: 1.250rem;
+		padding-bottom: 1.250rem;
+	}	
+	.classic-header .navbar-header-wrap .site-branding-text {
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+	.classic-header .navbar-header-wrap .nav .menu-item .nav-link {
+		padding: 1.7rem 1rem;
+	}
+	.classic-header .navbar-header-wrap .themes-header-top {
+		padding: 1.300rem 0;
+	}	
+	.classic-header .navbar-header-wrap .nav .dropdown-menu {
+		top: 82px !important;
+	}
+	.classic-header .navbar-header-wrap.header-fixed-top {
+		margin-top: 0;
+	}
+	.classic-header .navbar-header-wrap.header-fixed-top .navbar-brand {
+		padding-top: 0.900rem;
+		padding-bottom: 0.900rem;
+	}
+}

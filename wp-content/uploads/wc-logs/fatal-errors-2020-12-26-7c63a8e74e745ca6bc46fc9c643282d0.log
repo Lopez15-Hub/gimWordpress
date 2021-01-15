@@ -1,0 +1,72 @@
+2020-12-26T21:30:16+00:00 CRITICAL Maximum execution time of 60 seconds exceeded en C:\xamppp\htdocs\wordpress\wp-includes\Requests\Transport\cURL.php en la línea 441
+
+2020-12-26T21:48:04+00:00 CRITICAL Cannot redeclare descuento() (previously declared in C:\xamppp\htdocs\wordpress\wp-content\themes\storefront-child\functions.php:18) en C:\xamppp\htdocs\wordpress\wp-content\themes\storefront-child\functions.php en la línea 20
+
+2020-12-26T21:48:44+00:00 CRITICAL Unclosed '{' on line 20 en C:\xamppp\htdocs\wordpress\wp-content\themes\storefront-child\functions.php en la línea 24
+
+2020-12-26T21:48:51+00:00 CRITICAL syntax error, unexpected token "endif" en C:\xamppp\htdocs\wordpress\wp-content\themes\storefront-child\functions.php en la línea 25
+
+2020-12-26T21:49:02+00:00 CRITICAL syntax error, unexpected token "endif" en C:\xamppp\htdocs\wordpress\wp-content\themes\storefront-child\functions.php en la línea 26
+
+2020-12-26T21:55:41+00:00 CRITICAL syntax error, unexpected token "}", expecting "," or ";" en C:\xamppp\htdocs\wordpress\wp-content\themes\storefront-child\functions.php en la línea 23
+
+2020-12-26T21:55:43+00:00 CRITICAL syntax error, unexpected token "}", expecting "," or ";" en C:\xamppp\htdocs\wordpress\wp-content\themes\storefront-child\functions.php en la línea 23
+
+2020-12-26T21:55:57+00:00 CRITICAL syntax error, unexpected token "}", expecting "," or ";" en C:\xamppp\htdocs\wordpress\wp-content\themes\storefront-child\functions.php en la línea 25
+
+2020-12-26T23:20:59+00:00 CRITICAL syntax error, unexpected token "endif", expecting end of file en C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\templates\archive-product.php en la línea 35
+
+2020-12-26T23:23:05+00:00 CRITICAL Uncaught Error: Undefined constant "titulo" in C:\xamppp\htdocs\wordpress\wp-content\themes\storefront-child\functions.php:58
+Stack trace:
+#0 C:\xamppp\htdocs\wordpress\wp-content\themes\storefront-child\functions.php(53): title(NULL)
+#1 C:\xamppp\htdocs\wordpress\wp-settings.php(525): include('C:\\xamppp\\htdoc...')
+#2 C:\xamppp\htdocs\wordpress\wp-config.php(92): require_once('C:\\xamppp\\htdoc...')
+#3 C:\xamppp\htdocs\wordpress\wp-load.php(37): require_once('C:\\xamppp\\htdoc...')
+#4 C:\xamppp\htdocs\wordpress\wp-blog-header.php(13): require_once('C:\\xamppp\\htdoc...')
+#5 C:\xamppp\htdocs\wordpress\index.php(17): require('C:\\xamppp\\htdoc...')
+#6 {main}
+  thrown en C:\xamppp\htdocs\wordpress\wp-content\themes\storefront-child\functions.php en la línea 58
+
+2020-12-26T23:23:17+00:00 CRITICAL Uncaught Error: Undefined constant "titulo" in C:\xamppp\htdocs\wordpress\wp-content\themes\storefront-child\functions.php:58
+Stack trace:
+#0 C:\xamppp\htdocs\wordpress\wp-content\themes\storefront-child\functions.php(53): title('Tienda')
+#1 C:\xamppp\htdocs\wordpress\wp-settings.php(525): include('C:\\xamppp\\htdoc...')
+#2 C:\xamppp\htdocs\wordpress\wp-config.php(92): require_once('C:\\xamppp\\htdoc...')
+#3 C:\xamppp\htdocs\wordpress\wp-load.php(37): require_once('C:\\xamppp\\htdoc...')
+#4 C:\xamppp\htdocs\wordpress\wp-blog-header.php(13): require_once('C:\\xamppp\\htdoc...')
+#5 C:\xamppp\htdocs\wordpress\index.php(17): require('C:\\xamppp\\htdoc...')
+#6 {main}
+  thrown en C:\xamppp\htdocs\wordpress\wp-content\themes\storefront-child\functions.php en la línea 58
+
+2020-12-26T23:24:56+00:00 CRITICAL syntax error, unexpected token ";", expecting ")" en C:\xamppp\htdocs\wordpress\wp-content\themes\storefront-child\functions.php en la línea 53
+
+2020-12-26T23:24:58+00:00 CRITICAL syntax error, unexpected token ";", expecting ")" en C:\xamppp\htdocs\wordpress\wp-content\themes\storefront-child\functions.php en la línea 53
+
+2020-12-26T23:25:29+00:00 CRITICAL syntax error, unexpected token ";", expecting ")" en C:\xamppp\htdocs\wordpress\wp-content\themes\storefront-child\functions.php en la línea 53
+
+2020-12-26T23:25:32+00:00 CRITICAL syntax error, unexpected token ";", expecting ")" en C:\xamppp\htdocs\wordpress\wp-content\themes\storefront-child\functions.php en la línea 53
+
+2020-12-26T23:25:39+00:00 CRITICAL Uncaught Error: Undefined constant "titulo" in C:\xamppp\htdocs\wordpress\wp-content\themes\storefront-child\functions.php:58
+Stack trace:
+#0 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): title('Tienda')
+#1 C:\xamppp\htdocs\wordpress\wp-includes\plugin.php(212): WP_Hook->apply_filters(true, Array)
+#2 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\templates\archive-product.php(33): apply_filters('woocommerce_sho...', true)
+#3 C:\xamppp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xamppp\\htdoc...')
+#4 C:\xamppp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xamppp\\htdoc...')
+#5 C:\xamppp\htdocs\wordpress\index.php(17): require('C:\\xamppp\\htdoc...')
+#6 {main}
+  thrown en C:\xamppp\htdocs\wordpress\wp-content\themes\storefront-child\functions.php en la línea 58
+
+2020-12-26T23:26:00+00:00 CRITICAL Uncaught Error: Undefined constant "titulo" in C:\xamppp\htdocs\wordpress\wp-content\themes\storefront-child\functions.php:58
+Stack trace:
+#0 C:\xamppp\htdocs\wordpress\wp-includes\class-wp-hook.php(287): title('Tienda')
+#1 C:\xamppp\htdocs\wordpress\wp-includes\plugin.php(212): WP_Hook->apply_filters(true, Array)
+#2 C:\xamppp\htdocs\wordpress\wp-content\plugins\woocommerce\templates\archive-product.php(33): apply_filters('woocommerce_sho...', true)
+#3 C:\xamppp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xamppp\\htdoc...')
+#4 C:\xamppp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xamppp\\htdoc...')
+#5 C:\xamppp\htdocs\wordpress\index.php(17): require('C:\\xamppp\\htdoc...')
+#6 {main}
+  thrown en C:\xamppp\htdocs\wordpress\wp-content\themes\storefront-child\functions.php en la línea 58
+
+2020-12-26T23:55:42+00:00 CRITICAL Maximum execution time of 60 seconds exceeded en C:\xamppp\htdocs\wordpress\wp-includes\wp-db.php en la línea 2056
+
